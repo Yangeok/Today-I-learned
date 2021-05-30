@@ -1,4 +1,4 @@
-## GROUP BY vs. DISTINCT
+# GROUP BY과 DISTINCT 비교
 
 - `GROUP BY`
   - 데이터를 원하는 그룹으로 나눌 수 있다.

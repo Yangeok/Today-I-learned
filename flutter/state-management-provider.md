@@ -1,4 +1,4 @@
-# State management: Provider
+# 상태관리 도구 Provider
 
 - `ChangeNotifier`
   - 리스너에 변화를 알려주는 클래스

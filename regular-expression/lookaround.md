@@ -1,4 +1,4 @@
-## lookaround
+# lookaround 문법
 
 - lookaround 문법
     - `X(?=Y)`: Y 앞에 있는 X를 찾는다 (positive lookahead)

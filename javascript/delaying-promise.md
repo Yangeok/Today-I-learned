@@ -1,4 +1,4 @@
-# Delaying promise
+# 지연된 Promise
 
 - with `reduce()`
   - 비동기 코드를 처리할 때 Promise를 사용하면 편하다.

@@ -1,4 +1,4 @@
-## Installing MySQL on CentOS
+# CentOS에서 MySQL 설치
 
 - community, commercial 버전 모두 설치방법은 똑같음
 - 설치 후 서비스에 등록 및 실행

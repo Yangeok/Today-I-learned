@@ -1,4 +1,4 @@
-# Deep learning algorithms
+# 딥러닝 알고리즘
 
 - msa용 mono-repo 작성하는데 유용한 유틸리티 라이브러리이다.
 - 단일저장소에서 다양한 패키지를 구성할 수 있다.
