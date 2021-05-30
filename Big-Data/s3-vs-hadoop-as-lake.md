@@ -1,4 +1,4 @@
-# 데이터 레이크로써 S3와 Hadoop 비교
+## S3 vs. Hadoop as data lake
 
 - s3
   - 고내구성과 고가용성이 필요할 때

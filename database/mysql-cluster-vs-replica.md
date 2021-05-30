@@ -1,4 +1,4 @@
-## MySQL clustering vs. replication
+# MySQL 클러스터링과 레플리카 비교
 
 - Replication
   - 설명

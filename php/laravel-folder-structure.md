@@ -1,4 +1,4 @@
-## Laravel folder structure
+# Laravel 폴더 구조
 
 - root
   - app: 애플리케이션의 모든 클래스가 위치

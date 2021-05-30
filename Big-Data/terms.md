@@ -1,4 +1,4 @@
-# 용어 정리
+## Terms
 
 - l3 switch: ip 기준 로드밸런싱 및 라우터 역할
 - hadoop

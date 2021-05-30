@@ -1,4 +1,4 @@
-## login ssh with password
+# 비밀번호로 ssh 로그인
 
 - ssh 공개키를 복사해서 ~/.ssh/authorized_keys로 옮긴다
 

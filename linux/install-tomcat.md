@@ -1,4 +1,4 @@
-## Install tomcat 8.5
+# Tomcat 8.5 설치
 
 ```bash
 tar -xvfz apache-tomcat-8.5.66.tar.gz
