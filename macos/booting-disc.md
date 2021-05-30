@@ -1,4 +1,4 @@
-## burning booting disc from macOS
+# 맥OS에서 부팅 디스크 굽기
 
 - 디스크 유틸리티에서 usb 포맷학기
 - 터미널에서 diskutil로 디스크 위치를 확인한다

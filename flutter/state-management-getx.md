@@ -1,4 +1,4 @@
-# State management: GetX
+# 상태관리 도구 GetX
 
 - provider: 데이터를 만드는 곳과 사용하는 곳이 분리되어 코드관리가 수월해지고, 옵저버 패턴과 유사하다.
   - 기본
