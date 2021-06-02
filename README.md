@@ -35,9 +35,9 @@ _27 TILs and counting..._
 - [Security](#Security)
 
 ### [Big-Data](#Big-Data)
-- [DW constructure](Big-Data/dw-constructure.md)
-- [S3 vs. Hadoop as data lake](Big-Data/s3-vs-hadoop-as-lake.md)
-- [Schema type](Big-Data/schema-type.md)
+- [DW 구조](Big-Data/dw-constructure.md)
+- [데이터 레이크로서 S3 vs. Hadoop](Big-Data/s3-vs-hadoop-as-lake.md)
+- [스키마 종류](Big-Data/schema-type.md)
 - [# Terms](Big-Data/terms.md)
 
 ### [Computer-Science](#Computer-Science)
@@ -48,7 +48,7 @@ _27 TILs and counting..._
 - [MySQL 클러스터링과 레플리카 비교](Database/mysql-cluster-vs-replica.md)
 
 ### [Deep-Learning](#Deep-Learning)
-- [Deep learning algorithms](Deep-Learning/algorithms.md)
+- [딥러닝 알고리즘](Deep-Learning/algorithms.md)
 
 ### [Flutter](#Flutter)
 - [상태관리 도구 GetX](Flutter/state-management-getx.md)
