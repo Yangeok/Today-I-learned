@@ -38,7 +38,7 @@ _27 TILs and counting..._
 - [DW 구조](Big-Data/dw-constructure.md)
 - [데이터 레이크로서 S3 vs. Hadoop](Big-Data/s3-vs-hadoop-as-lake.md)
 - [스키마 종류](Big-Data/schema-type.md)
-- [# Terms](Big-Data/terms.md)
+- [용어 정리](Big-Data/terms.md)
 
 ### [Computer-Science](#Computer-Science)
 - [용어 정리](Computer-Science/terms.md)
