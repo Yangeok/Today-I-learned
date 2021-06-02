@@ -1,0 +1,27 @@
+## artisan 사용법
+
+- eloquent
+  - `make:model {table_name}`: 테이블 추가
+  - `make:migration {migration_name} --create={table_name}`: 마이그레이션 테이블 추가
+  - `migrate`: 마이그레이션 실행
+  - `migrate:rollback`: 마이그레이션 롤백 (전부)
+  - `make:migration {migration_name} --table={table_name}`: 마이그레이션 열 추가
+  - `migrate:refresh`: 마이그레이션 새로고침
+  - `make:seeder {seeder_name}`: 시더 추가
+  - `db:seed --class={seeder_name}`: 시더 실행
+  - `migrate:refresh --seed`: 마이그레이션, 시딩 동시 실행
+- controller
+  - `make:controller {controller_name}`: 컨트롤러 추가
+  - `make:controller {controller_name} --resource`: restful 컨트롤러 추가
+  - `route:list`: 라우트 목록 확인
+- auth
+  - `make:auth`: 인증기능 초기화
+- request(dto)
+  - `make:request`: dto 추가
+- event
+  - `make:listener {listener_name} --event={event_name}`: 리스너 추가
+  - `make:event {event_name}`: 이벤트 추가
+  - `event:generate`: 리스너, 이벤트 동시 추가
+- composer
+  - `vendor:publish --provider={library_path}`: 서비스 프로바이더에 추가
+  - `optimize`
