@@ -1,4 +1,4 @@
-## 용어 정리
+# 용어 정리
 
 - utm
 	- source: 필수로 들어가야 한다. 소스로 표현되는 부분으로 naver, google, facebook 등이 들어간다.

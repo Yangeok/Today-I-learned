@@ -1,4 +1,4 @@
-## 렌더링 타입별 추적방법
+# 렌더링 타입별 추적방법
 
 - csr
   - 클라이언트측 이동경로 확인은 pageview api를 사용하면 추적할 수 있다. `page_title`, `page_location`, `page_path`	총 3개의 프로퍼티를 가진 api이다.

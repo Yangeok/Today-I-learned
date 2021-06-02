@@ -1,4 +1,4 @@
-## composer 사용법
+# composer 사용법
 
 - `init`: 프로젝트 초기화
 - `search`: 라이브러리 검색

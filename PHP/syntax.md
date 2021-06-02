@@ -1,4 +1,4 @@
-## 제어문 및 기본문법
+# 제어문 및 기본문법
 
 - control statement
   - for

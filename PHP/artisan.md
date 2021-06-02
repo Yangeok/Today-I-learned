@@ -1,4 +1,4 @@
-## artisan 사용법
+# artisan 사용법
 
 - eloquent
   - `make:model {table_name}`: 테이블 추가
