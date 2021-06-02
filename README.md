@@ -4,16 +4,16 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_27 TILs and counting..._
+_31 TILs and counting..._
 
 ---
 
 ### 5 most recent TILs
 
 - [Laravel 폴더 구조](PHP/laravel-folder-structure.md) - Sun May 30 13:49:44 2021 +0900
-- [비밀번호로 ssh 로그인](Linux/ssh-password-login.md) - Sun May 30 13:49:44 2021 +0900
-- [scp 사용 방법](Linux/scp-usage.md) - Sun May 30 13:49:44 2021 +0900
+- [맥OS에서 부팅 디스크 굽기](MacOS/booting-disc.md) - Sun May 30 13:49:44 2021 +0900
 - [Tomcat 8.5 설치](Linux/install-tomcat.md) - Sun May 30 13:49:44 2021 +0900
+- [용어 정리](Network/terms.md) - Sun May 30 13:49:44 2021 +0900
 - [GROUP BY과 DISTINCT 비교](SQL/group-by-vs-distinct.md) - Sun May 30 13:49:44 2021 +0900
 
 ### Categories
@@ -65,8 +65,12 @@ _27 TILs and counting..._
 - [Lerna 소개](Lerna/introduction.md)
 
 ### [Linux](#Linux)
+- [rpm 저장소 비활성화시키기](Linux/disable-rpm-repo.md)
 - [Tomcat 8.5 설치](Linux/install-tomcat.md)
+- [lsb_release 플래그](Linux/lsb-flag.md)
+- [RHEL 정품인증](Linux/register-rhel.md)
 - [scp 사용 방법](Linux/scp-usage.md)
+- [GUI에서 스크린샷 찍기](Linux/screenshot-gui.md)
 - [비밀번호로 ssh 로그인](Linux/ssh-password-login.md)
 - [uname 플래그](Linux/uname-flag.md)
 
