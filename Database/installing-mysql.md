@@ -30,3 +30,19 @@ $ firewall-cmd --permanent --zone=public --add-port=3306/tcp
 $ vi /etc/firewalld/zones/public.xml
 $ systemctl restart firewalld
 ```
+
+- mariadb와 충돌 생기는 경우
+```jsx
+Error: Package: akonadi-mysql-1.9.2-4.el7.x86_64 (@anaconda)
+           Requires: mariadb-server
+           Removing: 1:mariadb-server-5.5.60-1.el7_5.x86_64 (@updates)
+               mariadb-server = 1:5.5.60-1.el7_5
+           Obsoleted By: mysql-community-server-8.0.13-1.el7.x86_64 (mysql80-community)
+               Not found
+           Available: 1:mariadb-server-5.5.56-2.el7.x86_64 (base)
+               mariadb-server = 1:5.5.56-2.el7
+```
+- 아래와 같이 mariadb를 삭제하면 에러를 해결할 수 있다
+```jsx
+yum -y remove mariadb-libs
+```
