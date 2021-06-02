@@ -35,13 +35,13 @@ _27 TILs and counting..._
 - [Security](#Security)
 
 ### [Big-Data](#Big-Data)
-- [# DW constructure](Big-Data/dw-constructure.md)
-- [# S3 vs. Hadoop as data lake](Big-Data/s3-vs-hadoop-as-lake.md)
-- [# Schema type](Big-Data/schema-type.md)
+- [DW constructure](Big-Data/dw-constructure.md)
+- [S3 vs. Hadoop as data lake](Big-Data/s3-vs-hadoop-as-lake.md)
+- [Schema type](Big-Data/schema-type.md)
 - [# Terms](Big-Data/terms.md)
 
 ### [Computer-Science](#Computer-Science)
-- [# 용어 정리](Computer-Science/terms.md)
+- [용어 정리](Computer-Science/terms.md)
 
 ### [Database](#Database)
 - [CentOS에서 MySQL 설치](Database/installing-mysql.md)
@@ -55,8 +55,8 @@ _27 TILs and counting..._
 - [상태관리 도구 Provider](Flutter/state-management-provider.md)
 
 ### [Google-Analytics](#Google-Analytics)
-- [# 용어 정리](Google-Analytics/terms.md)
-- [# 렌더링 타입별 추적방법](Google-Analytics/trace.md)
+- [용어 정리](Google-Analytics/terms.md)
+- [렌더링 타입별 추적방법](Google-Analytics/trace.md)
 
 ### [Javascript](#Javascript)
 - [지연된 Promise](Javascript/delaying-promise.md)
@@ -68,7 +68,7 @@ _27 TILs and counting..._
 - [Tomcat 8.5 설치](Linux/install-tomcat.md)
 - [scp 사용 방법](Linux/scp-usage.md)
 - [비밀번호로 ssh 로그인](Linux/ssh-password-login.md)
-- [# uname 플래그](Linux/uname-flag.md)
+- [uname 플래그](Linux/uname-flag.md)
 
 ### [MacOS](#MacOS)
 - [맥OS에서 부팅 디스크 굽기](MacOS/booting-disc.md)
@@ -77,10 +77,10 @@ _27 TILs and counting..._
 - [용어 정리](Network/terms.md)
 
 ### [PHP](#PHP)
-- [# artisan 사용법](PHP/artisan.md)
-- [# composer 사용법](PHP/composer.md)
+- [artisan 사용법](PHP/artisan.md)
+- [composer 사용법](PHP/composer.md)
 - [Laravel 폴더 구조](PHP/laravel-folder-structure.md)
-- [# 제어문 및 기본문법](PHP/syntax.md)
+- [제어문 및 기본문법](PHP/syntax.md)
 
 ### [RegExp](#RegExp)
 - [lookaround 문법](RegExp/lookaround.md)
@@ -89,7 +89,7 @@ _27 TILs and counting..._
 - [GROUP BY과 DISTINCT 비교](SQL/group-by-vs-distinct.md)
 
 ### [Security](#Security)
-- [# 용어 정리](Security/terms.md)
+- [용어 정리](Security/terms.md)
 
 [1]: https://yangeok.github.io/
 
