@@ -4,17 +4,17 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_31 TILs and counting..._
+_37 TILs and counting..._
 
 ---
 
 ### 5 most recent TILs
 
-- [Laravel 폴더 구조](PHP/laravel-folder-structure.md) - Sun May 30 13:49:44 2021 +0900
-- [맥OS에서 부팅 디스크 굽기](MacOS/booting-disc.md) - Sun May 30 13:49:44 2021 +0900
-- [Tomcat 8.5 설치](Linux/install-tomcat.md) - Sun May 30 13:49:44 2021 +0900
-- [용어 정리](Network/terms.md) - Sun May 30 13:49:44 2021 +0900
+- [상태관리 도구 GetX](Flutter/state-management-getx.md) - Sun May 30 13:49:44 2021 +0900
+- [Lerna 소개](Lerna/introduction.md) - Sun May 30 13:49:44 2021 +0900
 - [GROUP BY과 DISTINCT 비교](SQL/group-by-vs-distinct.md) - Sun May 30 13:49:44 2021 +0900
+- [지연된 Promise](Javascript/delaying-promise.md) - Sun May 30 13:49:44 2021 +0900
+- [비밀번호로 ssh 로그인](Linux/ssh-password-login.md) - Sun May 30 13:49:44 2021 +0900
 
 ### Categories
 
@@ -37,6 +37,7 @@ _31 TILs and counting..._
 ### [Big-Data](#Big-Data)
 - [DW 구조](Big-Data/dw-constructure.md)
 - [데이터 레이크로서 S3 vs. Hadoop](Big-Data/s3-vs-hadoop-as-lake.md)
+- [SCD(Slowly Changed Dimension)이란](Big-Data/scd.md)
 - [스키마 종류](Big-Data/schema-type.md)
 - [용어 정리](Big-Data/terms.md)
 
@@ -46,6 +47,8 @@ _31 TILs and counting..._
 ### [Database](#Database)
 - [CentOS에서 MySQL 설치](Database/installing-mysql.md)
 - [MySQL 클러스터링과 레플리카 비교](Database/mysql-cluster-vs-replica.md)
+- [PostgreSQL 명령어](Database/pgsql-command.md)
+- [pgadmin DB 접근권한 획득 및 포트 개방](Database/pgsql-permission.md)
 
 ### [Deep-Learning](#Deep-Learning)
 - [딥러닝 알고리즘](Deep-Learning/algorithms.md)
@@ -88,6 +91,9 @@ _31 TILs and counting..._
 
 ### [RegExp](#RegExp)
 - [lookaround 문법](RegExp/lookaround.md)
+- [숫자 천단위 포매팅](RegExp/number-format.md)
+- [특수문자 사용법](RegExp/special-character-usage.md)
+- [정규식 문자열 취급](RegExp/string.md)
 
 ### [SQL](#SQL)
 - [GROUP BY과 DISTINCT 비교](SQL/group-by-vs-distinct.md)
