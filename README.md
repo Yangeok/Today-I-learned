@@ -4,17 +4,17 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_41 TILs and counting..._
+_47 TILs and counting..._
 
 ---
 
 ### 5 most recent TILs
 
-- [상태관리 도구 GetX](Flutter/state-management-getx.md) - Sun May 30 13:49:44 2021 +0900
-- [Lerna 소개](Lerna/introduction.md) - Sun May 30 13:49:44 2021 +0900
-- [GROUP BY과 DISTINCT 비교](SQL/group-by-vs-distinct.md) - Sun May 30 13:49:44 2021 +0900
-- [지연된 Promise](Javascript/delaying-promise.md) - Sun May 30 13:49:44 2021 +0900
-- [scp 사용 방법](Linux/scp-usage.md) - Sun May 30 13:49:44 2021 +0900
+- [key 순서로 객체 정렬시키기](Javascript/sort-object-by-key.md) - Sat Jun 12 13:38:36 2021 +0900
+- [코드포매팅 자동화하기](Python/code-formatter.md) - Sat Jun 12 13:38:36 2021 +0900
+- [nginx 504 timeout 에러 해결하기](Web-Server/nginx-504-timeout.md) - Sat Jun 12 13:38:36 2021 +0900
+- [pyenv, pyenv-virtualenv 사용하기](Python/pyenv-usage.md) - Sat Jun 12 13:38:36 2021 +0900
+- [라이브러리 없이 progress bar 만들기](Python/progress-bar.md) - Sat Jun 12 13:38:36 2021 +0900
 
 ### Categories
 
@@ -32,10 +32,12 @@ _41 TILs and counting..._
 - [Network](#Network)
 - [NiFi](#NiFi)
 - [PHP](#PHP)
+- [Python](#Python)
 - [RDP](#RDP)
 - [RegExp](#RegExp)
 - [SQL](#SQL)
 - [Security](#Security)
+- [Web-Server](#Web-Server)
 
 ### [Big-Data](#Big-Data)
 - [DW 구조](Big-Data/dw-constructure.md)
@@ -69,6 +71,8 @@ _41 TILs and counting..._
 
 ### [Javascript](#Javascript)
 - [지연된 Promise](Javascript/delaying-promise.md)
+- [이미지 순차 다운로딩하기](Javascript/download-images-suquentially.md)
+- [key 순서로 객체 정렬시키기](Javascript/sort-object-by-key.md)
 
 ### [Lerna](#Lerna)
 - [Lerna 소개](Lerna/introduction.md)
@@ -99,6 +103,11 @@ _41 TILs and counting..._
 - [Laravel 폴더 구조](PHP/laravel-folder-structure.md)
 - [제어문 및 기본문법](PHP/syntax.md)
 
+### [Python](#Python)
+- [코드포매팅 자동화하기](Python/code-formatter.md)
+- [라이브러리 없이 progress bar 만들기](Python/progress-bar.md)
+- [pyenv, pyenv-virtualenv 사용하기](Python/pyenv-usage.md)
+
 ### [RDP](#RDP)
 - [xrdp로 원격 데스크탑 접속](RDP/xrdp.md)
 
@@ -113,6 +122,9 @@ _41 TILs and counting..._
 
 ### [Security](#Security)
 - [용어 정리](Security/terms.md)
+
+### [Web-Server](#Web-Server)
+- [nginx 504 timeout 에러 해결하기](Web-Server/nginx-504-timeout.md)
 
 [1]: https://yangeok.github.io/
 
