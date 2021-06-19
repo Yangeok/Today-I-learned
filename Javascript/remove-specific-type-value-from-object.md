@@ -22,7 +22,7 @@ const removeSpecificTypeKeyFromObject = type => obj => {
 ```
 
 - 한 줄씩 이해하면서 넘어가보자
-    - `const removeSpecificTypeKeyFromObject = type => obj => {`(line 1)은 커링이 가능한 고차 함수다. 이유는 `Array` 메서드 안에 고차 함수로 사용하기 위함이다. 아래서 예제에 커리를 적용하기 위해 고차 함수를 사용했다.
+    - `const removeSpecificTypeKeyFromObject = type => obj => {`(line 1)은 고차 함수다. 이유는 `Array` 메서드 안에 고차 함수로 사용하기 위함이다.
     - `const ent ries = Object.entries(obj)`(line2)는 객체를 배열로 바꾸기 위해 사용했다. `Object.entries()`는 인자로 객체를 넣으면 `[key, value]` 형태의 배열로 반환한다.
     - `const removeType = i => typeof i[1] !== type`(line 3)는 첫번째 파라미터였던 `type`과 `value`의 타입이 같으면 `true`를 반환하는 함수이다. `Array.filter()`에 고차 함수로 사용하기 위해 선언했다.
     - `return Object.fromEntries(entries.filter(removeType))`(line 4)에서 `entries` 배열 중 삭제할 타입만 지운 다음 다시 객체로 되돌리기 위해 `Object.fromEntries()`를 사용한다. `Object.fromEntries()`의 인자는 iterable한 배열이나 `Map`, `Set` 타입을을 집어넣을 수 있다.
@@ -47,11 +47,7 @@ const result1 = {
 - `result1`은 객체다. 이 객체를 `removeSpecificTypeKeyFromObject` 함수를 사용해 가공해서 아래와 같은 결과를 얻을 수 있다. 값이 배열인 프로퍼티 `list`는 javascript 원시타입이 `object`라 첫 번째 인자로 `object`가 들어간다. 두 번째 인자로 API 호출결과인 객체가 들어간다.
 
 ```jsx
-// using hoc
-const concatable1 = removeSpecificTypeKeyFromObject('object')(result1)
-
-// using curry
-const concatable1 = curry(removeSpecificTypeKeyFromObject('object', result1))
+const concatable1 = removeSpecificTypeKeyFromObject('object', result1)
 ```
 
 - 함수 실행결과는 아래와 같다.
@@ -83,7 +79,7 @@ const data1 = reuslt1.map(i => ({ ...i, ...concatable1 }))
 ],
 ```
 
-- `result2`는 배열이다. 배열은 `removeSpecificTypeKeyFromObject`  함수를 사용하기 위해 `Array.map()` 안에서 고차 함수를 한 겹 벗겨서 집어넣어준다.
+- `result2`는 배열이다. 배열은 `removeSpecificTypeKeyFromObject`  함수를 사용하기 위해 `Array.map(****)` 안에서 고차 함수를 한 겹 벗겨서 집어넣어준다.
 
 ```jsx
 const result2 = [
@@ -108,7 +104,7 @@ const result2 = [
 			},
 			{
 				id: 4,
-				name: 'far'
+				name: ****'far'
 			},
 		],
 		common: 'qux'
@@ -169,4 +165,57 @@ const data2 = result2
 		common: 'qux'
 	},
 ]
+```
+
+커링을 사용하려면 아래와 같이 함수 파라미터를 변경해줘야 한다. 고차 함수에서 일반함수로 바꿔준다.
+
+```ts
+// as-is
+const removeSpecificTypeKeyFromObject = type => obj => {
+	const entries = Object.entries(obj)
+	const removeType = i => typeof i[1] !== type
+	return Object.fromEntries(entries.filter(removeType))
+}
+
+// to-be 
+const removeSpecificTypeKeyFromObject = (type, obj) => {
+	const entries = Object.entries(obj)
+	const removeType = i => typeof i[1] !== type
+	return Object.fromEntries(entries.filter(removeType))
+}
+```
+
+이제 커리를 함수로 구현할 차례다. 구현이 중요하지는 않다. 사용이 중요하다.
+```ts
+function curry(func) {
+  return function curried(...args) {
+    if (args.length >= func.length) {
+      return func.apply(this, args)
+    } else {
+      return function(...args2) {
+        return curried.apply(this, args.concat(args2))
+      }
+    }
+  }
+}
+```
+
+커리를 적용한 result1은 다음과 같이 바꿀 수 있다.
+
+```ts
+// as-is
+const concatable1 = removeSpecificTypeKeyFromObject('object')(result1)
+
+// to-be
+const concatable1 = removeSpecificTypeKeyFromObject('object', result1)
+```
+
+마찬가지로 result2는 다음과 같이 바꿀 수 있다.
+
+```ts
+// as-is
+const concatable2 = result.map(removeSpecificTypeValueFromObject('object'))
+
+// to-be
+const concatable2 = result.map(curry(removeSpecificTypeValueFromObject)('object'))
 ```
