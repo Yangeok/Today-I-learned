@@ -4,14 +4,14 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_66 TILs and counting..._
+_67 TILs and counting..._
 
 ---
 
 ### 5 most recent TILs
 
+- [Heroku 배포시 에러 처리](PaaS/heroku-trouble-shooting.md) - Wed Jun 23 23:43:29 2021 +0900
 - [객체에서 어떤 타입의 값 제거하기](Javascript/remove-specific-type-value-from-object.md) - Thu Jun 17 21:19:37 2021 +0900
-- [deep copy vs. shallow copy](Javascript/copy.md) - Thu Jun 17 21:19:37 2021 +0900
 - [apache mod_rewrite란](Web-Server/apache-mod-rewrite.md) - Thu Jun 17 21:19:37 2021 +0900
 - [type vs as type](Typescript/type-vs-as-type.md) - Thu Jun 17 21:19:37 2021 +0900
 - [type guard란](Typescript/type-guard.md) - Thu Jun 17 21:19:37 2021 +0900
@@ -37,6 +37,7 @@ _66 TILs and counting..._
 - [Network](#Network)
 - [NiFi](#NiFi)
 - [PHP](#PHP)
+- [PaaS](#PaaS)
 - [Python](#Python)
 - [RDP](#RDP)
 - [React-State-Management](#React-State-Management)
@@ -131,6 +132,9 @@ _66 TILs and counting..._
 - [composer 사용법](PHP/composer.md)
 - [Laravel 폴더 구조](PHP/laravel-folder-structure.md)
 - [제어문 및 기본문법](PHP/syntax.md)
+
+### [PaaS](#PaaS)
+- [Heroku 배포시 에러 처리](PaaS/heroku-trouble-shooting.md)
 
 ### [Python](#Python)
 - [코드포매팅 자동화하기](Python/code-formatter.md)
