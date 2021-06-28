@@ -4,15 +4,15 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_67 TILs and counting..._
+_68 TILs and counting..._
 
 ---
 
 ### 5 most recent TILs
 
+- [URL vs. URLSearchParams](Javascript/url-vs-url-search-params.md) - Mon Jun 28 18:40:56 2021 +0900
 - [Heroku 배포시 에러 처리](PaaS/heroku-trouble-shooting.md) - Wed Jun 23 23:43:29 2021 +0900
-- [객체에서 어떤 타입의 값 제거하기](Javascript/remove-specific-type-value-from-object.md) - Thu Jun 17 21:19:37 2021 +0900
-- [apache mod_rewrite란](Web-Server/apache-mod-rewrite.md) - Thu Jun 17 21:19:37 2021 +0900
+- [코드젠 방법](GraphQL/code-gen.md) - Thu Jun 17 21:19:37 2021 +0900
 - [type vs as type](Typescript/type-vs-as-type.md) - Thu Jun 17 21:19:37 2021 +0900
 - [type guard란](Typescript/type-guard.md) - Thu Jun 17 21:19:37 2021 +0900
 
@@ -100,6 +100,7 @@ _67 TILs and counting..._
 - [객체에서 어떤 타입의 값 제거하기](Javascript/remove-specific-type-value-from-object.md)
 - [key 순서로 객체 정렬시키기](Javascript/sort-object-by-key.md)
 - [용어 정리](Javascript/terms.md)
+- [URL vs. URLSearchParams](Javascript/url-vs-url-search-params.md)
 
 ### [Lerna](#Lerna)
 - [Lerna 소개](Lerna/introduction.md)
