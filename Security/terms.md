@@ -16,3 +16,7 @@
       - 캡차 이미지 상의 숫자나 문자가 아니라면 요청을 차단하는 방법이다.
 		- double submit cookie 검증
 - xss: 클라이언트에서 발생
+
+- CSR(Ceritificate Signing Request): 인증 서명 요청
+- CRT(Certificate): 인증서, 인증서 파일의 확장자로 쓰임
+- X.509: 공개키 기반 인증서 형식 표준 
