@@ -4,17 +4,17 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_72 TILs and counting..._
+_76 TILs and counting..._
 
 ---
 
 ### 5 most recent TILs
 
-- [PKI(Public Key Infrastructure)란](Security/pki.md) - Tue Jun 29 14:57:45 2021 +0900
-- [함수 스케쥴링 돌리기](Javascript/cron.md) - Tue Jun 29 14:57:45 2021 +0900
-- [비대칭 암호화란](Security/asymmetric-encrpytion.md) - Tue Jun 29 14:57:45 2021 +0900
+- [Nginx SSL 사용하기](Web-Server/nginx-ssl.md) - Tue Jun 29 21:01:54 2021 +0900
+- [openssl 사용법](Security/openssl.md) - Tue Jun 29 21:01:54 2021 +0900
+- [게이트웨이 vs. 라우터](Network/gw-vs-router.md) - Tue Jun 29 21:01:54 2021 +0900
+- [네트워크 케이블 배열](Network/network-cable.md) - Tue Jun 29 21:01:54 2021 +0900
 - [SSL 인증서란](Security/ssl-cert.md) - Tue Jun 29 14:57:45 2021 +0900
-- [URL vs. URLSearchParams](Javascript/url-vs-url-search-params.md) - Mon Jun 28 18:40:56 2021 +0900
 
 ### Categories
 
@@ -123,6 +123,8 @@ _72 TILs and counting..._
 - [용어 정리](Mobile/terms.md)
 
 ### [Network](#Network)
+- [게이트웨이 vs. 라우터](Network/gw-vs-router.md)
+- [네트워크 케이블 배열](Network/network-cable.md)
 - [용어 정리](Network/terms.md)
 
 ### [NiFi](#NiFi)
@@ -161,6 +163,7 @@ _72 TILs and counting..._
 
 ### [Security](#Security)
 - [비대칭 암호화란](Security/asymmetric-encrpytion.md)
+- [openssl 사용법](Security/openssl.md)
 - [PKI(Public Key Infrastructure)란](Security/pki.md)
 - [SSL 인증서란](Security/ssl-cert.md)
 - [용어 정리](Security/terms.md)
@@ -173,6 +176,7 @@ _72 TILs and counting..._
 ### [Web-Server](#Web-Server)
 - [apache mod_rewrite란](Web-Server/apache-mod-rewrite.md)
 - [nginx 504 timeout 에러 해결하기](Web-Server/nginx-504-timeout.md)
+- [Nginx SSL 사용하기](Web-Server/nginx-ssl.md)
 - [용어 정리](Web-Server/terms.md)
 
 [1]: https://yangeok.github.io/
