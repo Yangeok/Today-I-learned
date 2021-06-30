@@ -4,17 +4,17 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_76 TILs and counting..._
+_80 TILs and counting..._
 
 ---
 
 ### 5 most recent TILs
 
+- [인증서 파일 포맷 종류](Security/certificate-format.md) - Wed Jun 30 17:17:48 2021 +0900
+- [Nginx https 설정시 ERR_TOO_MANY_REDIRECTS 에러 대처방법](Web-Server/nginx-too-many-redirect-err.md) - Wed Jun 30 17:17:48 2021 +0900
+- [hosts 파일 수정](MacOS/hosts.md) - Wed Jun 30 17:17:48 2021 +0900
+- [전용 인증서 등록](Tableau/cert.md) - Wed Jun 30 17:17:48 2021 +0900
 - [Nginx SSL 사용하기](Web-Server/nginx-ssl.md) - Tue Jun 29 21:01:54 2021 +0900
-- [openssl 사용법](Security/openssl.md) - Tue Jun 29 21:01:54 2021 +0900
-- [게이트웨이 vs. 라우터](Network/gw-vs-router.md) - Tue Jun 29 21:01:54 2021 +0900
-- [네트워크 케이블 배열](Network/network-cable.md) - Tue Jun 29 21:01:54 2021 +0900
-- [SSL 인증서란](Security/ssl-cert.md) - Tue Jun 29 14:57:45 2021 +0900
 
 ### Categories
 
@@ -44,6 +44,7 @@ _76 TILs and counting..._
 - [RegExp](#RegExp)
 - [SQL](#SQL)
 - [Security](#Security)
+- [Tableau](#Tableau)
 - [Typescript](#Typescript)
 - [Web-Server](#Web-Server)
 
@@ -118,6 +119,7 @@ _76 TILs and counting..._
 
 ### [MacOS](#MacOS)
 - [맥OS에서 부팅 디스크 굽기](MacOS/booting-disc.md)
+- [hosts 파일 수정](MacOS/hosts.md)
 
 ### [Mobile](#Mobile)
 - [용어 정리](Mobile/terms.md)
@@ -163,10 +165,14 @@ _76 TILs and counting..._
 
 ### [Security](#Security)
 - [비대칭 암호화란](Security/asymmetric-encrpytion.md)
+- [인증서 파일 포맷 종류](Security/certificate-format.md)
 - [openssl 사용법](Security/openssl.md)
 - [PKI(Public Key Infrastructure)란](Security/pki.md)
 - [SSL 인증서란](Security/ssl-cert.md)
 - [용어 정리](Security/terms.md)
+
+### [Tableau](#Tableau)
+- [전용 인증서 등록](Tableau/cert.md)
 
 ### [Typescript](#Typescript)
 - [용어 정리](Typescript/terms.md)
@@ -177,6 +183,7 @@ _76 TILs and counting..._
 - [apache mod_rewrite란](Web-Server/apache-mod-rewrite.md)
 - [nginx 504 timeout 에러 해결하기](Web-Server/nginx-504-timeout.md)
 - [Nginx SSL 사용하기](Web-Server/nginx-ssl.md)
+- [Nginx https 설정시 ERR_TOO_MANY_REDIRECTS 에러 대처방법](Web-Server/nginx-too-many-redirect-err.md)
 - [용어 정리](Web-Server/terms.md)
 
 [1]: https://yangeok.github.io/
