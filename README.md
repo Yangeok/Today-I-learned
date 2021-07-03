@@ -4,17 +4,17 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_81 TILs and counting..._
+_82 TILs and counting..._
 
 ---
 
 ### 5 most recent TILs
 
-- [인증서 파일 포맷 종류](Security/certificate-format.md) - Wed Jun 30 17:17:48 2021 +0900
 - [Nginx https 설정시 ERR_TOO_MANY_REDIRECTS 에러 대처방법](Web-Server/nginx-too-many-redirect-err.md) - Wed Jun 30 17:17:48 2021 +0900
-- [hosts 파일 수정](MacOS/hosts.md) - Wed Jun 30 17:17:48 2021 +0900
 - [전용 인증서 등록](Tableau/cert.md) - Wed Jun 30 17:17:48 2021 +0900
-- [Nginx SSL 사용하기](Web-Server/nginx-ssl.md) - Tue Jun 29 21:01:54 2021 +0900
+- [인증서 파일 포맷 종류](Security/certificate-format.md) - Wed Jun 30 17:17:48 2021 +0900
+- [hosts 파일 수정](MacOS/hosts.md) - Wed Jun 30 17:17:48 2021 +0900
+- [게이트웨이 vs. 라우터](Network/gw-vs-router.md) - Tue Jun 29 21:01:54 2021 +0900
 
 ### Categories
 
@@ -125,6 +125,7 @@ _81 TILs and counting..._
 - [용어 정리](Mobile/terms.md)
 
 ### [Network](#Network)
+- [게이트웨이, 서브넷마스크란](Network/gw-subnetmask.md)
 - [게이트웨이 vs. 라우터](Network/gw-vs-router.md)
 - [네트워크 케이블 배열](Network/network-cable.md)
 - [PC to PC 연결하는 방법](Network/pc-to-pc-connection.md)
