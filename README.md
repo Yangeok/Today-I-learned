@@ -4,7 +4,7 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_88 TILs and counting..._
+_93 TILs and counting..._
 
 ---
 
@@ -12,14 +12,14 @@ _88 TILs and counting..._
 
 - [hosts 파일 수정](MacOS/hosts.md) - Wed Jun 30 17:17:48 2021 +0900
 - [Nginx https 설정시 ERR_TOO_MANY_REDIRECTS 에러 대처방법](Web-Server/nginx-too-many-redirect-err.md) - Wed Jun 30 17:17:48 2021 +0900
-- [전용 인증서 등록](Tableau/cert.md) - Wed Jun 30 17:17:48 2021 +0900
 - [인증서 파일 포맷 종류](Security/certificate-format.md) - Wed Jun 30 17:17:48 2021 +0900
+- [전용 인증서 등록](Tableau/cert.md) - Wed Jun 30 17:17:48 2021 +0900
 - [Nginx SSL 사용하기](Web-Server/nginx-ssl.md) - Tue Jun 29 21:01:54 2021 +0900
-- [게이트웨이 vs. 라우터](Network/gw-vs-router.md) - Tue Jun 29 21:01:54 2021 +0900
 - [네트워크 케이블 배열](Network/network-cable.md) - Tue Jun 29 21:01:54 2021 +0900
 - [openssl 사용법](Security/openssl.md) - Tue Jun 29 21:01:54 2021 +0900
+- [게이트웨이 vs. 라우터](Network/gw-vs-router.md) - Tue Jun 29 21:01:54 2021 +0900
 - [비대칭 암호화란](Security/asymmetric-encrpytion.md) - Tue Jun 29 14:57:45 2021 +0900
-- [PKI(Public Key Infrastructure)란](Security/pki.md) - Tue Jun 29 14:57:45 2021 +0900
+- [함수 스케쥴링 돌리기](Javascript/cron.md) - Tue Jun 29 14:57:45 2021 +0900
 
 ### Categories
 
@@ -117,6 +117,8 @@ _88 TILs and counting..._
 ### [Linux](#Linux)
 - [rpm 저장소 비활성화시키기](Linux/disable-rpm-repo.md)
 - [firewall-cmd 사용하기](Linux/firewall.md)
+- [ftp 사용하기](Linux/ftp.md)
+- [readlink 사용법](Linux/get-sym-link.md)
 - [Tomcat 8.5 설치](Linux/install-tomcat.md)
 - [lsb_release 플래그](Linux/lsb-flag.md)
 - [mkdir 옵션](Linux/mkdir.md)
@@ -134,6 +136,7 @@ _88 TILs and counting..._
 - [용어 정리](Mobile/terms.md)
 
 ### [Network](#Network)
+- [본딩이란](Network/bonding.md)
 - [게이트웨이, 서브넷마스크란](Network/gw-subnetmask.md)
 - [게이트웨이 vs. 라우터](Network/gw-vs-router.md)
 - [네트워크 케이블 배열](Network/network-cable.md)
@@ -181,11 +184,13 @@ _88 TILs and counting..._
 - [인증서 파일 포맷 종류](Security/certificate-format.md)
 - [openssl 사용법](Security/openssl.md)
 - [PKI(Public Key Infrastructure)란](Security/pki.md)
+- [config 파일 설정 구문](Security/ssh-config.md)
 - [SSL 인증서란](Security/ssl-cert.md)
 - [용어 정리](Security/terms.md)
 
 ### [Tableau](#Tableau)
 - [전용 인증서 등록](Tableau/cert.md)
+- [Tableau Server 구성](Tableau/server-structure.md)
 
 ### [Typescript](#Typescript)
 - [용어 정리](Typescript/terms.md)
