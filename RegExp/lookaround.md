@@ -16,7 +16,7 @@
     str.replace(/(?=X)/g, '1') // 1X1X1XYYY
 
     // X 앞이 아닌 곳이 1 붙이기 (negative)
-    str*.replace(/(?!X)/g, '1')* // XXX1Y1Y1Y1
+    str.replace(/(?!X)/g, '1') // XXX1Y1Y1Y1
     ```
 
     - lookbehind는 다음과 같이 사용한다
