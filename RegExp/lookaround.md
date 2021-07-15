@@ -2,7 +2,7 @@
 
 - lookaround 문법
     - `X(?=Y)`: Y 앞에 있는 X를 찾는다 (positive lookahead)
-    - `X(?!Y)`: Y앞에 없는 X를 찾는다 (negative lookahead)
+    - `X(?!Y)`: Y 앞에 없는 X를 찾는다 (negative lookahead)
     - `(?<=Y)X`: Y 뒤에 있는 X를 찾는다 (positive lookbehind)
     - `(?<!Y)X`: Y 뒤에 없는 X를 찾는다 (negative lookbehind)
 - 결과를 소모하지 않고 문자열을 붙이는 방법
