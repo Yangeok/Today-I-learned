@@ -4,22 +4,22 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_96 TILs and counting..._
+_98 TILs and counting..._
 
 ---
 
 ### 10 most recent TILs
 
+- [데이터프레임 리스트 펼치기](Python/pandas-string-processing.md) - Mon Jul 19 10:23:35 2021 +0900
+- [Ubuntu 보안설정](Linux/ubuntu-security.md) - Mon Jul 19 10:23:35 2021 +0900
 - [update vs. upgrade](Linux/update-vs-upgrade.md) - Tue Jul 13 21:58:11 2021 +0900
-- [hosts 파일 수정](MacOS/hosts.md) - Wed Jun 30 17:17:48 2021 +0900
-- [인증서 파일 포맷 종류](Security/certificate-format.md) - Wed Jun 30 17:17:48 2021 +0900
-- [Nginx https 설정시 ERR_TOO_MANY_REDIRECTS 에러 대처방법](Web-Server/nginx-too-many-redirect-err.md) - Wed Jun 30 17:17:48 2021 +0900
 - [전용 인증서 등록](Tableau/cert.md) - Wed Jun 30 17:17:48 2021 +0900
+- [hosts 파일 수정](MacOS/hosts.md) - Wed Jun 30 17:17:48 2021 +0900
+- [Nginx https 설정시 ERR_TOO_MANY_REDIRECTS 에러 대처방법](Web-Server/nginx-too-many-redirect-err.md) - Wed Jun 30 17:17:48 2021 +0900
+- [인증서 파일 포맷 종류](Security/certificate-format.md) - Wed Jun 30 17:17:48 2021 +0900
 - [네트워크 케이블 배열](Network/network-cable.md) - Tue Jun 29 21:01:54 2021 +0900
 - [게이트웨이 vs. 라우터](Network/gw-vs-router.md) - Tue Jun 29 21:01:54 2021 +0900
-- [Nginx SSL 사용하기](Web-Server/nginx-ssl.md) - Tue Jun 29 21:01:54 2021 +0900
 - [openssl 사용법](Security/openssl.md) - Tue Jun 29 21:01:54 2021 +0900
-- [비대칭 암호화란](Security/asymmetric-encrpytion.md) - Tue Jun 29 14:57:45 2021 +0900
 
 ### Categories
 
@@ -127,6 +127,7 @@ _96 TILs and counting..._
 - [scp 사용 방법](Linux/scp-usage.md)
 - [GUI에서 스크린샷 찍기](Linux/screenshot-gui.md)
 - [비밀번호로 ssh 로그인](Linux/ssh-password-login.md)
+- [Ubuntu 보안설정](Linux/ubuntu-security.md)
 - [uname 플래그](Linux/uname-flag.md)
 - [update vs. upgrade](Linux/update-vs-upgrade.md)
 
@@ -163,6 +164,7 @@ _96 TILs and counting..._
 ### [Python](#Python)
 - [코드포매팅 자동화하기](Python/code-formatter.md)
 - [디렉토리 내 파일 압축하기](Python/compress.md)
+- [데이터프레임 리스트 펼치기](Python/pandas-string-processing.md)
 - [라이브러리 없이 progress bar 만들기](Python/progress-bar.md)
 - [pyenv, pyenv-virtualenv 사용하기](Python/pyenv-usage.md)
 
