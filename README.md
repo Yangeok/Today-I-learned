@@ -4,20 +4,20 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_98 TILs and counting..._
+_99 TILs and counting..._
 
 ---
 
 ### 10 most recent TILs
 
+- [CentOS 설치 의존성 목록](Tableau/dependencies.md) - Mon Jul 26 14:59:52 2021 +0900
 - [데이터프레임 리스트 펼치기](Python/pandas-string-processing.md) - Mon Jul 19 10:23:35 2021 +0900
 - [Ubuntu 보안설정](Linux/ubuntu-security.md) - Mon Jul 19 10:23:35 2021 +0900
 - [update vs. upgrade](Linux/update-vs-upgrade.md) - Tue Jul 13 21:58:11 2021 +0900
 - [전용 인증서 등록](Tableau/cert.md) - Wed Jun 30 17:17:48 2021 +0900
+- [인증서 파일 포맷 종류](Security/certificate-format.md) - Wed Jun 30 17:17:48 2021 +0900
 - [hosts 파일 수정](MacOS/hosts.md) - Wed Jun 30 17:17:48 2021 +0900
 - [Nginx https 설정시 ERR_TOO_MANY_REDIRECTS 에러 대처방법](Web-Server/nginx-too-many-redirect-err.md) - Wed Jun 30 17:17:48 2021 +0900
-- [인증서 파일 포맷 종류](Security/certificate-format.md) - Wed Jun 30 17:17:48 2021 +0900
-- [네트워크 케이블 배열](Network/network-cable.md) - Tue Jun 29 21:01:54 2021 +0900
 - [게이트웨이 vs. 라우터](Network/gw-vs-router.md) - Tue Jun 29 21:01:54 2021 +0900
 - [openssl 사용법](Security/openssl.md) - Tue Jun 29 21:01:54 2021 +0900
 
@@ -195,6 +195,7 @@ _98 TILs and counting..._
 
 ### [Tableau](#Tableau)
 - [전용 인증서 등록](Tableau/cert.md)
+- [CentOS 설치 의존성 목록](Tableau/dependencies.md)
 - [Tableau Server 구성](Tableau/server-structure.md)
 
 ### [Typescript](#Typescript)
