@@ -4,22 +4,22 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_99 TILs and counting..._
+_110 TILs and counting..._
 
 ---
 
 ### 10 most recent TILs
 
-- [CentOS 설치 의존성 목록](Tableau/dependencies.md) - Mon Jul 26 14:59:52 2021 +0900
-- [데이터프레임 리스트 펼치기](Python/pandas-string-processing.md) - Mon Jul 19 10:23:35 2021 +0900
-- [Ubuntu 보안설정](Linux/ubuntu-security.md) - Mon Jul 19 10:23:35 2021 +0900
-- [update vs. upgrade](Linux/update-vs-upgrade.md) - Tue Jul 13 21:58:11 2021 +0900
-- [전용 인증서 등록](Tableau/cert.md) - Wed Jun 30 17:17:48 2021 +0900
-- [인증서 파일 포맷 종류](Security/certificate-format.md) - Wed Jun 30 17:17:48 2021 +0900
-- [hosts 파일 수정](MacOS/hosts.md) - Wed Jun 30 17:17:48 2021 +0900
-- [Nginx https 설정시 ERR_TOO_MANY_REDIRECTS 에러 대처방법](Web-Server/nginx-too-many-redirect-err.md) - Wed Jun 30 17:17:48 2021 +0900
-- [게이트웨이 vs. 라우터](Network/gw-vs-router.md) - Tue Jun 29 21:01:54 2021 +0900
-- [openssl 사용법](Security/openssl.md) - Tue Jun 29 21:01:54 2021 +0900
+- [특수권한](Linux/special-permission.md) - Fri Aug 13 21:07:53 2021 +0900
+- [npm, yarn 글로벌 설치 목록 확인](Nodejs/check-global-lib.md) - Tue Aug 10 21:14:25 2021 +0900
+- [파싱 에러 발생시 대처방법](Typescript/parsing-error.md) - Tue Aug 10 21:14:25 2021 +0900
+- [컨테이너에서 호스트로 파일 복사](Docker/container-to-host-copy.md) - Tue Aug 10 21:14:25 2021 +0900
+- [인스턴스 내부 IP 확인](Docker/check-internal-ip.md) - Tue Aug 10 21:14:25 2021 +0900
+- [원하는 문자열이 있는 파일 검색](Linux/search-file.md) - Tue Aug 10 21:14:25 2021 +0900
+- [json 포팅해서 저장](Javascript/json-formatting.md) - Tue Aug 10 21:14:25 2021 +0900
+- [PostgreSQL 메타 쿼리](SQL/meta-query.md) - Tue Aug 10 21:14:25 2021 +0900
+- [MySQL unsigned 특성이란](Database/mysql-unsigned.md) - Tue Aug 10 21:14:25 2021 +0900
+- [csv로 sql one-to-many 관계 데이터 만들기](SQL/csv-to-sql.md) - Tue Aug 10 21:14:25 2021 +0900
 
 ### Categories
 
@@ -41,6 +41,7 @@ _99 TILs and counting..._
 - [Mobile](#Mobile)
 - [Network](#Network)
 - [NiFi](#NiFi)
+- [Nodejs](#Nodejs)
 - [PHP](#PHP)
 - [PaaS](#PaaS)
 - [Python](#Python)
@@ -74,6 +75,7 @@ _99 TILs and counting..._
 ### [Database](#Database)
 - [CentOS에서 MySQL 설치](Database/installing-mysql.md)
 - [MySQL 클러스터링과 레플리카 비교](Database/mysql-cluster-vs-replica.md)
+- [MySQL unsigned 특성이란](Database/mysql-unsigned.md)
 - [PostgreSQL 명령어](Database/pgsql-command.md)
 - [pgadmin DB 접근권한 획득 및 포트 개방](Database/pgsql-permission.md)
 
@@ -81,6 +83,8 @@ _99 TILs and counting..._
 - [딥러닝 알고리즘](Deep-Learning/algorithms.md)
 
 ### [Docker](#Docker)
+- [인스턴스 내부 IP 확인](Docker/check-internal-ip.md)
+- [컨테이너에서 호스트로 파일 복사](Docker/container-to-host-copy.md)
 - [네트워크 종류](Docker/network.md)
 - [pgadmin에서 pgsql 인스턴스 호스트 찾기](Docker/pgadmin-docker-host.md)
 - [데이터 저장](Docker/storing-data.md)
@@ -106,6 +110,7 @@ _99 TILs and counting..._
 - [지연된 Promise](Javascript/delaying-promise.md)
 - [이미지 순차 다운로딩하기](Javascript/download-images-suquentially.md)
 - [dynamic import란](Javascript/dynamic-import.md)
+- [json 포팅해서 저장](Javascript/json-formatting.md)
 - [객체에서 어떤 타입의 값 제거하기](Javascript/remove-specific-type-value-from-object.md)
 - [key 순서로 객체 정렬시키기](Javascript/sort-object-by-key.md)
 - [용어 정리](Javascript/terms.md)
@@ -126,6 +131,8 @@ _99 TILs and counting..._
 - [rpm 명령어 옵션](Linux/rpm-flag.md)
 - [scp 사용 방법](Linux/scp-usage.md)
 - [GUI에서 스크린샷 찍기](Linux/screenshot-gui.md)
+- [원하는 문자열이 있는 파일 검색](Linux/search-file.md)
+- [특수권한](Linux/special-permission.md)
 - [비밀번호로 ssh 로그인](Linux/ssh-password-login.md)
 - [Ubuntu 보안설정](Linux/ubuntu-security.md)
 - [uname 플래그](Linux/uname-flag.md)
@@ -151,6 +158,9 @@ _99 TILs and counting..._
 ### [NiFi](#NiFi)
 - [DB 커넥션풀 설정](NiFi/db-connection-pool.md)
 - [GC 오버헤드 제한 초과 에러](NiFi/memory-exceeded-err.md)
+
+### [Nodejs](#Nodejs)
+- [npm, yarn 글로벌 설치 목록 확인](Nodejs/check-global-lib.md)
 
 ### [PHP](#PHP)
 - [artisan 사용법](PHP/artisan.md)
@@ -181,7 +191,10 @@ _99 TILs and counting..._
 - [정규식 문자열 취급](RegExp/string.md)
 
 ### [SQL](#SQL)
+- [csv로 sql one-to-many 관계 데이터 만들기](SQL/csv-to-sql.md)
 - [GROUP BY과 DISTINCT 비교](SQL/group-by-vs-distinct.md)
+- [MariaDB 쿼리 모니터링](SQL/mariadb-query-monit.md)
+- [PostgreSQL 메타 쿼리](SQL/meta-query.md)
 - [용어 정리](SQL/terms.md)
 
 ### [Security](#Security)
@@ -199,6 +212,7 @@ _99 TILs and counting..._
 - [Tableau Server 구성](Tableau/server-structure.md)
 
 ### [Typescript](#Typescript)
+- [파싱 에러 발생시 대처방법](Typescript/parsing-error.md)
 - [용어 정리](Typescript/terms.md)
 - [type guard란](Typescript/type-guard.md)
 - [type vs as type](Typescript/type-vs-as-type.md)
