@@ -4,25 +4,26 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_118 TILs and counting..._
+_120 TILs and counting..._
 
 ---
 
 ### 10 most recent TILs
 
 - [시스템 정보 확인](Linux/system-info.md) - Mon Aug 30 10:36:43 2021 +0900
-- [에디터 없이 cat으로 파일 수정](Linux/modify-with-cat.md) - Mon Aug 30 10:36:43 2021 +0900
 - [파일 및 디렉토리 리스팅](Hadoop/listing.md) - Mon Aug 30 10:36:43 2021 +0900
+- [에디터 없이 cat으로 파일 수정](Linux/modify-with-cat.md) - Mon Aug 30 10:36:43 2021 +0900
 - [wheel 그룹에서 su 명령어 사용하기](Linux/su-wheel-group.md) - Wed Aug 18 22:09:16 2021 +0900
 - [usermod 명령어](Linux/usermod.md) - Wed Aug 18 22:09:16 2021 +0900
 - [특수권한](Linux/special-permission.md) - Fri Aug 13 21:07:53 2021 +0900
-- [csv로 sql one-to-many 관계 데이터 만들기](SQL/csv-to-sql.md) - Tue Aug 10 21:14:25 2021 +0900
-- [PostgreSQL 메타 쿼리](SQL/meta-query.md) - Tue Aug 10 21:14:25 2021 +0900
-- [파싱 에러 발생시 대처방법](Typescript/parsing-error.md) - Tue Aug 10 21:14:25 2021 +0900
 - [원하는 문자열이 있는 파일 검색](Linux/search-file.md) - Tue Aug 10 21:14:25 2021 +0900
+- [PostgreSQL 메타 쿼리](SQL/meta-query.md) - Tue Aug 10 21:14:25 2021 +0900
+- [json 포팅해서 저장](Javascript/json-formatting.md) - Tue Aug 10 21:14:25 2021 +0900
+- [인스턴스 내부 IP 확인](Docker/check-internal-ip.md) - Tue Aug 10 21:14:25 2021 +0900
 
 ### Categories
 
+- [.github](#.github)
 - [Backend](#Backend)
 - [Big-Data](#Big-Data)
 - [CSS](#CSS)
@@ -54,6 +55,10 @@ _118 TILs and counting..._
 - [Tableau](#Tableau)
 - [Typescript](#Typescript)
 - [Web-Server](#Web-Server)
+
+### [.github](#.github)
+- [# AS-IS](.github/ISSUE_TEMPLATE.md)
+- [# 기존 상황](.github/PULL_REQUEST_TEMPLATE.md)
 
 ### [Backend](#Backend)
 - [Nestjs 소개](Backend/nestjs.md)
