@@ -4,21 +4,21 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_128 TILs and counting..._
+_136 TILs and counting..._
 
 ---
 
 ### 10 most recent TILs
 
-- [MySQL 덤프](Database/mysql-dump.md) - Wed Sep 22 15:13:28 2021 +0900
-- [Dockerfile 명령어](Docker/dockerfile-command.md) - Wed Sep 22 15:13:28 2021 +0900
 - [datetime 시리얼라이징 에러 해결방법](Python/json-datetime.md) - Wed Sep 22 15:13:28 2021 +0900
-- [네트워크 종류](Docker/compose-network.md) - Wed Sep 22 15:13:28 2021 +0900
+- [Dockerfile 명령어](Docker/dockerfile-command.md) - Wed Sep 22 15:13:28 2021 +0900
 - [Apache 에러 No space left on device](Web-Server/apache-no-space-left.md) - Wed Sep 22 15:13:28 2021 +0900
 - [traceroute 사용법](Linux/traceroute.md) - Wed Sep 22 15:13:28 2021 +0900
+- [네트워크 종류](Docker/compose-network.md) - Wed Sep 22 15:13:28 2021 +0900
+- [MySQL 덤프](Database/mysql-dump.md) - Wed Sep 22 15:13:28 2021 +0900
+- [에디터 없이 cat으로 파일 수정](Linux/modify-with-cat.md) - Mon Aug 30 10:36:43 2021 +0900
 - [시스템 정보 확인](Linux/system-info.md) - Mon Aug 30 10:36:43 2021 +0900
 - [파일 및 디렉토리 리스팅](Hadoop/listing.md) - Mon Aug 30 10:36:43 2021 +0900
-- [에디터 없이 cat으로 파일 수정](Linux/modify-with-cat.md) - Mon Aug 30 10:36:43 2021 +0900
 - [usermod 명령어](Linux/usermod.md) - Wed Aug 18 22:09:16 2021 +0900
 
 ### Categories
@@ -85,6 +85,7 @@ _128 TILs and counting..._
 - [MySQL unsigned 특성이란](Database/mysql-unsigned.md)
 - [PostgreSQL 명령어](Database/pgsql-command.md)
 - [pgadmin DB 접근권한 획득 및 포트 개방](Database/pgsql-permission.md)
+- [Redis 데몬 실행](Database/redis-daemonize.md)
 
 ### [Deep-Learning](#Deep-Learning)
 - [딥러닝 알고리즘](Deep-Learning/algorithms.md)
@@ -117,6 +118,8 @@ _128 TILs and counting..._
 - [WebHDFS 업로드 API 사용](Hadoop/upload.md)
 
 ### [Javascript](#Javascript)
+- [blob 파일 다운로드 구현](Javascript/blob-download.md)
+- [클래스 오버라이딩](Javascript/class-overriding.md)
 - [deep copy vs. shallow copy](Javascript/copy.md)
 - [함수 스케쥴링 돌리기](Javascript/cron.md)
 - [deep freeze란](Javascript/deep-freeze.md)
@@ -128,6 +131,7 @@ _128 TILs and counting..._
 - [key 순서로 객체 정렬시키기](Javascript/sort-object-by-key.md)
 - [용어 정리](Javascript/terms.md)
 - [URL vs. URLSearchParams](Javascript/url-vs-url-search-params.md)
+- [Web Worker란](Javascript/web-worker.md)
 
 ### [Lerna](#Lerna)
 - [Lerna 소개](Lerna/introduction.md)
@@ -135,6 +139,7 @@ _128 TILs and counting..._
 ### [Linux](#Linux)
 - [crontab 옵션](Linux/cron.md)
 - [rpm 저장소 비활성화시키기](Linux/disable-rpm-repo.md)
+- [egrep 사용법](Linux/egrep.md)
 - [firewall-cmd 사용하기](Linux/firewall.md)
 - [ftp 사용하기](Linux/ftp.md)
 - [readlink 사용법](Linux/get-sym-link.md)
@@ -156,6 +161,7 @@ _128 TILs and counting..._
 - [uname 플래그](Linux/uname-flag.md)
 - [update vs. upgrade](Linux/update-vs-upgrade.md)
 - [usermod 명령어](Linux/usermod.md)
+- [xargs 사용법](Linux/xargs.md)
 
 ### [MacOS](#MacOS)
 - [맥OS에서 부팅 디스크 굽기](MacOS/booting-disc.md)
@@ -169,6 +175,7 @@ _128 TILs and counting..._
 - [게이트웨이, 서브넷마스크란](Network/gw-subnetmask.md)
 - [게이트웨이 vs. 라우터](Network/gw-vs-router.md)
 - [ICMP란](Network/icmp.md)
+- [NAT(Network Address Translation)](Network/nat.md)
 - [네트워크 케이블 배열](Network/network-cable.md)
 - [PC to PC 연결하는 방법](Network/pc-to-pc-connection.md)
 - [스위치 vs. 라우터](Network/router-vs-switch.md)
@@ -176,6 +183,7 @@ _128 TILs and counting..._
 - [용어 정리](Network/terms.md)
 
 ### [NiFi](#NiFi)
+- [인증이 필요한 InvokeHTTP 사용법](NiFi/auth-invoking-http.md)
 - [DB 커넥션풀 설정](NiFi/db-connection-pool.md)
 - [GC 오버헤드 제한 초과 에러](NiFi/memory-exceeded-err.md)
 
