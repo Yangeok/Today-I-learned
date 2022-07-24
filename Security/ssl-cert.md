@@ -15,8 +15,8 @@
 <img src="[https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/JqQ/image/ZiTAOAFpCFHmS_IG9P28lzcggzE.jpg](https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/JqQ/image/ZiTAOAFpCFHmS_IG9P28lzcggzE.jpg)">
 
 - 인증서에는 다음과 같은 내용들이 포함되어 있다
-    - 인증서 소유자의 이름
-    - 인증서 소유자의 공개키 (비밀키는 CA가 소유)
-    - 인증서의 유효기간
-    - 고유한 UID
-    - 인증서의 기타 모든 값들을 해시한 값
+  - 인증서 소유자의 이름
+  - 인증서 소유자의 공개키 (비밀키는 CA가 소유)
+  - 인증서의 유효기간
+  - 고유한 UID
+  - 인증서의 기타 모든 값들을 해시한 값

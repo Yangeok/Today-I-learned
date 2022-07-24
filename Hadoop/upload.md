@@ -34,8 +34,8 @@ const fileData = new FormData()
 fileData.append('filename', fs.readFilySync(file))
 
 await axios.put(`${url}/${path}/${filename}?${params.toString()}`, fileData, {
-	headers: {
-		'Content-Type': 'multipart/form-data'
-	}
+ headers: {
+  'Content-Type': 'multipart/form-data'
+ }
 })
 ```

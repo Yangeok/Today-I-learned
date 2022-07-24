@@ -2,6 +2,7 @@
 
 - control statement
   - for
+
     ```php
     // as-is
     <? php
@@ -17,7 +18,9 @@
       <p>Do something in HTML <?php echo $i; ?></p>
     <?php endfor; ?>
     ```
+
   - foreach
+
     ```php
     // as-is
     <?php
@@ -33,7 +36,9 @@
       <p>Do something in HTML <?php echo $item; ?></p>
     <?php endforeach; ?>
     ```
+
   - if/else
+
     ```php
     // as-is
     <?php
@@ -57,7 +62,9 @@
       <p>Do something different in HTML</p>
     <?php endif; ?>
     ```
+
   - switch
+
     ```php
     // as-is
     <?php
@@ -82,7 +89,9 @@
       <?php break; ?>
     <?php endswitch; ?>
     ```
+
   - while
+
     ```php
     // as-is
     <?php 
@@ -98,13 +107,17 @@
       <p>Do something in HTML</p>
     <?php endwhile; ?>
     ```
+
 - typed php
+
   ```php
   function foo (int $x) {
     return $x;
   }
   ```
+
 - arrow function
+
   ```php
   // generally
   $foo = fn (int $x) => $x;
@@ -115,11 +128,15 @@
   // using ref to parameter
   fn (&$x) => $x;
   ```
+
 - const
+
   ```php
   const FOO = 'foo';
   ```
+
 - exception
+
   ```php
   try {
     do_something();
@@ -127,7 +144,6 @@
     echo $e->errorMessage();
   }
   ```
-
 
 - php
   - type hint

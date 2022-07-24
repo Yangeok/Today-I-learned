@@ -3,60 +3,60 @@
 - `.ssh/config` 파일 안에 점점 길어지는 ssh 구문을 저장할 수 있다
 - 파일은 소유자만 접근할 수 있도록 권한을 `400`으로 변경해야 한다
 - 일반 속성
-    - `Hostname`: 연결될 서버 호스트 명으로 사용됨.
-        - 선택적 속성
-        - 미 설정시 `Host` 값이 `Hostname`으로 사용됨
-    - `User`: 네트웍 커넥션에 사용되는 계정 명
-    - `Port`: 원격 ssh 데몬이 사용하는 포트, 기본 값은 `22`
+  - `Hostname`: 연결될 서버 호스트 명으로 사용됨.
+    - 선택적 속성
+    - 미 설정시 `Host` 값이 `Hostname`으로 사용됨
+  - `User`: 네트웍 커넥션에 사용되는 계정 명
+  - `Port`: 원격 ssh 데몬이 사용하는 포트, 기본 값은 `22`
 - 네트워크 속성
-    - `ServerAliveInterval`
-        - 서버에 테스트 패킷을 전송하는 주기 설정
-        - 초단위 설정
-        - 기본 값: `0`
-    - `ServerAliveCountMax`
-        - 서버에 테스트용 패킷을 전송하는 횟수를 설정
-        - 서버에 추가적인 데이터 전송 없이 `ServerAliveInterval`의 최대 임계 값을 초과할 경우 커넥션 종료
-        - 기본값: `3`
-        - 예: ServerAliveInterval 15, ServerAliveCountMax 3
-            - 통신없이 45초 결과후 커넥션 종료
-    - `LogLevel`
-        - 클라이언트 측의 로그 레벨
-        - 최소 로그: `QUIET`
-        - 최대 로그: `DEBUG3`
-        - 설정 값: `[“QUIET”,“FATAL”,“ERROR”,“INFO”,“VERBOSE”,“DEBUG1”,“DEBUG2”,“DEBUG3”]`
-    - `StrictHostKeyChecking`
-        - `~/.ssh/known_hosts`에 자동으로 호스트를 추가하는 설정
-        - 기본 설정은 저장을 질문 함
-        - 비활성 설정: `no`
-    - `UserKnownHostsFile`
-        - 연결된 호스트에 대한 정보를 남기는 파일을 지정하는 설정
-        - 기본 값: `~/.ssh/known_hosts`
-        - 일반적으로 이 설정을 변경하지 않음
-        - `StrictHostKeyChecking`을 `no`로 설정할 경우에 이 설정을 `/dev/null`로 설정
-    - `VisualHostKey`
-        - 원격지의 호스트 키를 클라이언트 접속시 출력
-    - `Compression`
-        - 느린 네트웍 상에서 네트웍 패킷을 압축하는 옵션
-        - 일반적인 상황에서 사용하지 않음
+  - `ServerAliveInterval`
+    - 서버에 테스트 패킷을 전송하는 주기 설정
+    - 초단위 설정
+    - 기본 값: `0`
+  - `ServerAliveCountMax`
+    - 서버에 테스트용 패킷을 전송하는 횟수를 설정
+    - 서버에 추가적인 데이터 전송 없이 `ServerAliveInterval`의 최대 임계 값을 초과할 경우 커넥션 종료
+    - 기본값: `3`
+    - 예: ServerAliveInterval 15, ServerAliveCountMax 3
+      - 통신없이 45초 결과후 커넥션 종료
+  - `LogLevel`
+    - 클라이언트 측의 로그 레벨
+    - 최소 로그: `QUIET`
+    - 최대 로그: `DEBUG3`
+    - 설정 값: `[“QUIET”,“FATAL”,“ERROR”,“INFO”,“VERBOSE”,“DEBUG1”,“DEBUG2”,“DEBUG3”]`
+  - `StrictHostKeyChecking`
+    - `~/.ssh/known_hosts`에 자동으로 호스트를 추가하는 설정
+    - 기본 설정은 저장을 질문 함
+    - 비활성 설정: `no`
+  - `UserKnownHostsFile`
+    - 연결된 호스트에 대한 정보를 남기는 파일을 지정하는 설정
+    - 기본 값: `~/.ssh/known_hosts`
+    - 일반적으로 이 설정을 변경하지 않음
+    - `StrictHostKeyChecking`을 `no`로 설정할 경우에 이 설정을 `/dev/null`로 설정
+  - `VisualHostKey`
+    - 원격지의 호스트 키를 클라이언트 접속시 출력
+  - `Compression`
+    - 느린 네트웍 상에서 네트웍 패킷을 압축하는 옵션
+    - 일반적인 상황에서 사용하지 않음
 - SSH 키 속성
-    - `IdentityFile`
-        - `Host` 별로 사용할 키의 위치를 지정
-        - 기본값: 프로토콜에 따라 결정 됨 (`~/.ssh/id_rsa` or `~/.ssh/id_dsa`)
+  - `IdentityFile`
+    - `Host` 별로 사용할 키의 위치를 지정
+    - 기본값: 프로토콜에 따라 결정 됨 (`~/.ssh/id_rsa` or `~/.ssh/id_dsa`)
 - 멀티플렉싱
-    - `ControlMaster`
-        - Multiplexing을 허용하는 옵션
-        - 허용 설정 값: `auto`
-    - `ControlPath`
-        - 커넥션을 제어하는 용도로 사용하는 socket 파일 지정
-        - `/path/to/socket/%r@%h:%p`
-            - `r`: username
-            - `h`: remote host
-            - `p`: port
-    - `ControlPersist`
-        - 커넥션이 유지해야 할 시간을 초단위로 지정
-        - 초단위 설정
-        - 낮은 값을 설정할 경우 불필요한 커넥션 연결 오픈을 방지할 수 있음
+  - `ControlMaster`
+    - Multiplexing을 허용하는 옵션
+    - 허용 설정 값: `auto`
+  - `ControlPath`
+    - 커넥션을 제어하는 용도로 사용하는 socket 파일 지정
+    - `/path/to/socket/%r@%h:%p`
+      - `r`: username
+      - `h`: remote host
+      - `p`: port
+  - `ControlPersist`
+    - 커넥션이 유지해야 할 시간을 초단위로 지정
+    - 초단위 설정
+    - 낮은 값을 설정할 경우 불필요한 커넥션 연결 오픈을 방지할 수 있음
 - 사용 가능한 패턴은 다음과 같다
-    - `*`: 0자 이상 일치
-    - `?`: 1문자와 정확히 일치
-    - `!`: 일치하는 항목 무효화
+  - `*`: 0자 이상 일치
+  - `?`: 1문자와 정확히 일치
+  - `!`: 일치하는 항목 무효화

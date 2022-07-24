@@ -4,15 +4,15 @@
 
 ```sh
 server {
-	listen 80;
-	server_name http://localhost;
+ listen 80;
+ server_name http://localhost;
 
-	location / {
-		proxy_pass http://localhost;
-		proxy_content_timeout 300;
-		proxy_send_timeout 300;
-		proxy_read_timeout 300;
-		send_timeout 300;
-	}
+ location / {
+  proxy_pass http://localhost;
+  proxy_content_timeout 300;
+  proxy_send_timeout 300;
+  proxy_read_timeout 300;
+  send_timeout 300;
+ }
 }
 ```

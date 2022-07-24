@@ -12,8 +12,8 @@ name | list
 
 ```python
 df = pd.DataFrame({ 'name': [1, 2, 3],
-										'list': [',a,b,c', 'b,e,f', ',b,c,d']
-									})
+          'list': [',a,b,c', 'b,e,f', ',b,c,d']
+         })
 
 df['list'] = df['list'].str.split(',', expand=False)
 ```
@@ -32,14 +32,14 @@ df = df.explode('list')
 
 name | list
 --- | ---
-1 | 
+1 |
 1 | a
 1 | b
 1 | c
 2 | b
 2 | e
 2 | f
-3 | 
+3 |
 3 | b
 3 | c
 3| d

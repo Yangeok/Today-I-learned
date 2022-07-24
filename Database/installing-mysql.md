@@ -4,9 +4,9 @@
 - 설치 후 서비스에 등록 및 실행
 
 ```bash
-$ systemctl start mysqld
-$ systemctl status mysqld
-$ systemctl enable mysqld
+systemctl start mysqld
+systemctl status mysqld
+systemctl enable mysqld
 ```
 
 - 기본 비밀번호 찾기
@@ -26,12 +26,13 @@ Query OK, 0 rows affected (0.04 sec)
 - 방화벽 설정하기
 
 ```bash
-$ firewall-cmd --permanent --zone=public --add-port=3306/tcp
-$ vi /etc/firewalld/zones/public.xml
-$ systemctl restart firewalld
+firewall-cmd --permanent --zone=public --add-port=3306/tcp
+vi /etc/firewalld/zones/public.xml
+systemctl restart firewalld
 ```
 
 - mariadb와 충돌 생기는 경우
+
 ```jsx
 Error: Package: akonadi-mysql-1.9.2-4.el7.x86_64 (@anaconda)
            Requires: mariadb-server
@@ -42,7 +43,9 @@ Error: Package: akonadi-mysql-1.9.2-4.el7.x86_64 (@anaconda)
            Available: 1:mariadb-server-5.5.56-2.el7.x86_64 (base)
                mariadb-server = 1:5.5.56-2.el7
 ```
+
 - 아래와 같이 mariadb를 삭제하면 에러를 해결할 수 있다
+
 ```jsx
 yum -y remove mariadb-libs
 ```

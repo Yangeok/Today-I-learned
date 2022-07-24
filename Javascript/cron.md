@@ -10,6 +10,6 @@
     }
 
     function startScheduledJob() {
-    	return new CronJob('* * * * *', runSomething).start()
+     return new CronJob('* * * * *', runSomething).start()
     }
     ```

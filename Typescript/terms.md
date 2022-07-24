@@ -3,6 +3,7 @@
 - decorator: `.d.ts` 파일이나 declare class 안에는 사용할 수 없다. 데코레이터 표현식은 런타임에 함수로 호출된다.
 - generic
   - 함수에서 사용
+
   ```ts
   // using primative type
   function foo(arg: any): any {

@@ -2,12 +2,12 @@
 
 ```ts
 function sortObject(obj) {
-	Object
-		.keys(obj)
-		.sort()
-		.reduce((o, k) => {
-			o[k] = obj[k]
-			return o
-		}, {})
+ Object
+  .keys(obj)
+  .sort()
+  .reduce((o, k) => {
+   o[k] = obj[k]
+   return o
+  }, {})
 }
 ```

@@ -5,4 +5,5 @@ function escapeRegExp(string){
   return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
 }
 ```
+
 - `$&`는 일치한 전체 문자열을 의미함

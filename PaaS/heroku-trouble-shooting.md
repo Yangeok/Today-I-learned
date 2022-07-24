@@ -1,6 +1,7 @@
 # Heroku 배포시 에러 처리
 
 - `Application error` 에러가 발생한 경우  `heroku logs --tail`로 에러 추적이 가능
+
 ```sh
 2019-03-27T11:51:12-07:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=myapp.herokuapp.com fwd=17.17.17.17 dyno= connect= service= status=503 bytes=
 ```

@@ -7,6 +7,7 @@
     - animation-name: 사용자가 직접 지정한 이름으로, `@keyframes`가 적용될 애니메이션의 이름이다.
     - stage: from-to 혹은 0-100%의 구간이다.
     - css style: 각 스테이지에 적용시킬 스타일이다.
+
     ```css
     /* way 1 */
     @keyframes div {
@@ -35,5 +36,6 @@
       }
     }
     ```
+
 - animation
   - keyframe과 같은 용도지만 어떤 클래스 안에서 여러가지 속성으로 분리해서 사용할 수 있다.

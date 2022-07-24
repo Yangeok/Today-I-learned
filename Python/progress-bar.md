@@ -25,9 +25,11 @@ def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, 
     if iteration == total: 
         print()
 ```
+
 - 아래와 같이 사용할 수 있다
+
 ```py
 items = list(range(0, 100))
 for idx, item in enumerate(items):
-	printProgressBar(i + 1, l, prefix = 'Progress:', suffix = 'Complete', length = 50)
+ printProgressBar(i + 1, l, prefix = 'Progress:', suffix = 'Complete', length = 50)
 ```
