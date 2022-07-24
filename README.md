@@ -4,21 +4,21 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_146 TILs and counting..._
+_147 TILs and counting..._
 
 ---
 
 ### 10 most recent TILs
 
-- [디스크 파티션](Linux/partition.md) - Sun Oct 24 20:44:04 2021 +0900
 - [nmap 옵션](Linux/nmap.md) - Sun Oct 24 20:44:04 2021 +0900
+- [디스크 파티션](Linux/partition.md) - Sun Oct 24 20:44:04 2021 +0900
 - [파일 포맷 종류](GIS/file-format.md) - Tue Oct 19 17:14:35 2021 +0900
-- [trap 사용법](Linux/trap.md) - Sat Oct 16 20:44:09 2021 +0900
 - [Let's Encrypt SSL 인증서 발급 방법](Security/letsencrypt-ssl.md) - Sat Oct 16 20:44:09 2021 +0900
-- [traceroute 사용법](Linux/traceroute.md) - Wed Sep 22 15:13:28 2021 +0900
-- [Apache 에러 No space left on device](Web-Server/apache-no-space-left.md) - Wed Sep 22 15:13:28 2021 +0900
+- [trap 사용법](Linux/trap.md) - Sat Oct 16 20:44:09 2021 +0900
 - [datetime 시리얼라이징 에러 해결방법](Python/json-datetime.md) - Wed Sep 22 15:13:28 2021 +0900
-- [MySQL 덤프](Database/mysql-dump.md) - Wed Sep 22 15:13:28 2021 +0900
+- [Apache 에러 No space left on device](Web-Server/apache-no-space-left.md) - Wed Sep 22 15:13:28 2021 +0900
+- [traceroute 사용법](Linux/traceroute.md) - Wed Sep 22 15:13:28 2021 +0900
+- [네트워크 종류](Docker/compose-network.md) - Wed Sep 22 15:13:28 2021 +0900
 - [Dockerfile 명령어](Docker/dockerfile-command.md) - Wed Sep 22 15:13:28 2021 +0900
 
 ### Categories
@@ -38,6 +38,7 @@ _146 TILs and counting..._
 - [GraphQL](#GraphQL)
 - [Hadoop](#Hadoop)
 - [Javascript](#Javascript)
+- [Kubernetes](#Kubernetes)
 - [Lerna](#Lerna)
 - [Linux](#Linux)
 - [MacOS](#MacOS)
@@ -58,8 +59,7 @@ _146 TILs and counting..._
 - [Web-Server](#Web-Server)
 
 ### [.github](#.github)
-- [# AS-IS](.github/ISSUE_TEMPLATE.md)
-- [# 기존 상황](.github/PULL_REQUEST_TEMPLATE.md)
+- [# Pull request checklist](.github/PULL_REQUEST_TEMPLATE.md)
 
 ### [Backend](#Backend)
 - [Nestjs 소개](Backend/nestjs.md)
@@ -136,6 +136,10 @@ _146 TILs and counting..._
 - [용어 정리](Javascript/terms.md)
 - [URL vs. URLSearchParams](Javascript/url-vs-url-search-params.md)
 - [Web Worker란](Javascript/web-worker.md)
+
+### [Kubernetes](#Kubernetes)
+- [사용 목적](Kubernetes/purpose.md)
+- [용어 정리](Kubernetes/terms.md)
 
 ### [Lerna](#Lerna)
 - [Lerna 소개](Lerna/introduction.md)
