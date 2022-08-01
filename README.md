@@ -4,7 +4,7 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_158 TILs and counting..._
+_160 TILs and counting..._
 
 ---
 
@@ -12,13 +12,13 @@ _158 TILs and counting..._
 
 - [utf8-bom](Character/utf8-bom.md) - Sun Jul 24 15:58:00 2022 +0900
 - [iv란](Encryption/iv.md) - Sun Jul 24 15:58:00 2022 +0900
-- [오프라인 환경에서 패키지 설치](Nodejs/offline-package-install.md) - Sun Jul 24 15:58:00 2022 +0900
-- [yarn berry 모노레포 부트스트랩](Nodejs/yarn-berry-monorepo-boot.md) - Sun Jul 24 15:58:00 2022 +0900
-- [백본 스위치](Network/backbone-switch.md) - Sun Jul 24 15:58:00 2022 +0900
-- [is-a vs. has-a](OOP/is-a-vs-has-a.md) - Sun Jul 24 15:58:00 2022 +0900
 - [제네릭 관련 예약어](Typescript/generic-operator.md) - Sun Jul 24 15:58:00 2022 +0900
 - [오프라인 환경에서 사용](Docker/offline-usage.md) - Sun Jul 24 15:58:00 2022 +0900
 - [dotenv 변수 연결해서 사용하는 방법](React/connect-dotenv.md) - Sun Jul 24 15:58:00 2022 +0900
+- [오프라인 환경에서 패키지 설치](Nodejs/offline-package-install.md) - Sun Jul 24 15:58:00 2022 +0900
+- [백본 스위치](Network/backbone-switch.md) - Sun Jul 24 15:58:00 2022 +0900
+- [yarn berry 모노레포 부트스트랩](Nodejs/yarn-berry-monorepo-boot.md) - Sun Jul 24 15:58:00 2022 +0900
+- [is-a vs. has-a](OOP/is-a-vs-has-a.md) - Sun Jul 24 15:58:00 2022 +0900
 - [nmap 옵션](Linux/nmap.md) - Sun Oct 24 20:44:04 2021 +0900
 
 ### Categories
@@ -59,6 +59,7 @@ _158 TILs and counting..._
 - [RegExp](#RegExp)
 - [SQL](#SQL)
 - [Security](#Security)
+- [Site-Performance](#Site-Performance)
 - [Tableau](#Tableau)
 - [Typescript](#Typescript)
 - [Web-Server](#Web-Server)
@@ -127,6 +128,7 @@ _158 TILs and counting..._
 - [파일 포맷 종류](GIS/file-format.md)
 
 ### [Google-Analytics](#Google-Analytics)
+- [기능](Google-Analytics/feature.md)
 - [용어 정리](Google-Analytics/terms.md)
 - [렌더링 타입별 추적방법](Google-Analytics/trace.md)
 
@@ -276,6 +278,9 @@ _158 TILs and counting..._
 - [config 파일 설정 구문](Security/ssh-config.md)
 - [SSL 인증서란](Security/ssl-cert.md)
 - [용어 정리](Security/terms.md)
+
+### [Site-Performance](#Site-Performance)
+- [지표](Site-Performance/metrics.md)
 
 ### [Tableau](#Tableau)
 - [전용 인증서 등록](Tableau/cert.md)
