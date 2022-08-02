@@ -4,22 +4,22 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_160 TILs and counting..._
+_162 TILs and counting..._
 
 ---
 
 ### 10 most recent TILs
 
-- [utf8-bom](Character/utf8-bom.md) - Sun Jul 24 15:58:00 2022 +0900
-- [iv란](Encryption/iv.md) - Sun Jul 24 15:58:00 2022 +0900
-- [제네릭 관련 예약어](Typescript/generic-operator.md) - Sun Jul 24 15:58:00 2022 +0900
 - [오프라인 환경에서 사용](Docker/offline-usage.md) - Sun Jul 24 15:58:00 2022 +0900
-- [dotenv 변수 연결해서 사용하는 방법](React/connect-dotenv.md) - Sun Jul 24 15:58:00 2022 +0900
-- [오프라인 환경에서 패키지 설치](Nodejs/offline-package-install.md) - Sun Jul 24 15:58:00 2022 +0900
 - [백본 스위치](Network/backbone-switch.md) - Sun Jul 24 15:58:00 2022 +0900
+- [iv란](Encryption/iv.md) - Sun Jul 24 15:58:00 2022 +0900
+- [오프라인 환경에서 패키지 설치](Nodejs/offline-package-install.md) - Sun Jul 24 15:58:00 2022 +0900
+- [utf8-bom](Character/utf8-bom.md) - Sun Jul 24 15:58:00 2022 +0900
 - [yarn berry 모노레포 부트스트랩](Nodejs/yarn-berry-monorepo-boot.md) - Sun Jul 24 15:58:00 2022 +0900
+- [제네릭 관련 예약어](Typescript/generic-operator.md) - Sun Jul 24 15:58:00 2022 +0900
 - [is-a vs. has-a](OOP/is-a-vs-has-a.md) - Sun Jul 24 15:58:00 2022 +0900
-- [nmap 옵션](Linux/nmap.md) - Sun Oct 24 20:44:04 2021 +0900
+- [dotenv 변수 연결해서 사용하는 방법](React/connect-dotenv.md) - Sun Jul 24 15:58:00 2022 +0900
+- [디스크 파티션](Linux/partition.md) - Sun Oct 24 20:44:04 2021 +0900
 
 ### Categories
 
@@ -97,6 +97,8 @@ _160 TILs and counting..._
 - [MySQL 덤프](Database/mysql-dump.md)
 - [MySQL unsigned 특성이란](Database/mysql-unsigned.md)
 - [Oracle Tablespace와 테이블 파티셔닝 방법](Database/oracle-tablespace.md)
+- [오라클 용어](Database/oracle-terms.md)
+- [오라클 튜닝](Database/oracle-tuning.md)
 - [PostgreSQL 명령어](Database/pgsql-command.md)
 - [pgadmin DB 접근권한 획득 및 포트 개방](Database/pgsql-permission.md)
 - [Redis 데몬 실행](Database/redis-daemonize.md)
