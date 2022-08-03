@@ -1,0 +1,119 @@
+# Zabbix 용어
+
+- host: 모니터링하고자 하는 IP/DNS
+- host group
+  - 호스트를 논리적으로 묶은 그룹으로 호스트와 템플릿을 포함할 수 있음
+  - 호스트 그룹을 포함한 호스트와 템플릿은 각각이 연결되어있지 않음
+  - 호스트 접근 권한을 각각 다른 유저 그룹에게 부여하기 위해 사용함
+- item: 호스트에서 수신하고자 하는 각각의 데이터 단위
+- value processing: 데이터베이스에 저장하기 전에 수신한 지표 데이터를 변환하는 과정
+- trigger
+  - 수신한 데이터를 평가하기 위해 사용하는 표현식
+  - 수신한 데이터가 기준 이상이면 트리거는 OK->PROBLEM으로 상태를 변경함
+- event
+  - 트리거 상태가 변경되거나 다른 액션이 일어났을 때 단발성으로 발생함
+  - 종류
+    - trigger (상태는 OK->PROBLEM->OK 순으로 변경)
+    - service (상태는 OK->PROBLEM->OK 순으로 변경)
+    - discovery
+    - autoregistration
+    - internal
+- event tag: 이벤트에 미리 정의한 마커로 권한이나 이벤트 관련해서 사용할 수 있음
+- event correlation
+  - 이벤트를 유연하고 정확하게 쪼개기 위해 사용함
+  - 트리거에 의해 트리거가 호출되도록 할 수 있음
+  - 종류
+    - on trigger level
+    - global
+- tagging
+  - template, host, item, trigger에 모두 태깅이 가능하며 이벤트를 발생시킴
+  - 용도
+    - 프론트엔드 발생 이벤트
+    - 템플릿에서 상속된 문제
+    - 호스트 문제
+    - 그룹 관련 아이템
+    - 인증 문제
+    - 알림 필터 목적
+    - 템플릿 수준 태스크 설정 간소화
+    - 저수준 태깅된 트리거 생성
+- problem
+  - 트리거의 상태
+  - 코멘트를 달거나, 수동으로 심각도가 인지, 변경, 닫히도록 상태를 관리할 수 있음
+- action: 이벤트에 반응하도록 미리 정의한 행동
+- escalation: 액션에서 실행될 수 있는 커스텀 시나리오로 원격 명령을 날리거나 알림을 보내는 일련의 절차
+- media: delivery channel이라고도 하며 알림을 발송하는 행위를 말함
+- notification: 선택된 미디어 채널을 통해 보내는 어떤 이벤트에 관한 메시지
+- remote command: 호스트에서 어떤 컨디션일 경우 자동으로 실행되는 명령
+- template: 각각 호스트에서 실행할 준비가 된 엔터티셋
+- web scenario: 웹사이트를 접근할 수 있는지 각각의 http 요청 (=heartbeat)
+- frontend: zabbix 웹 인터페이스
+- dashboard: 중요 정보를 담은 위젯셋
+- widget: 대시보드에서 사용하는 시각 정보의 단위
+- encryption: 컴포넌트(서버, 프락시, 에이전트 등)간 ssl(=tls)를 사용할 수 있음
+- discovery
+  - network
+  - low-level (e.g. fs, 네트워크 인터페이스 등)
+  - low-level discovery rule: 저수준 발견을 자동화하기 위한 정의셋
+- prototype: 저수준 발견을 위해 준비한 파라미터를 포함한 지표
+  - item
+  - trigger
+- agent autoregistration: zabbix-agent가 설치된 프로세스를 자동으로 등록하는 행위
+- macro
+  - built-in
+  - function
+  - user defined
+  - user defined with context
+  - low-level discovery
+- server
+  - ha
+    - 클러스터 모드로 active/standby로 동작함
+    - `HANodeName`과 `NodeAddress` 파라미터를 써줘야 클러스터 모드로 동작 가능 (써주지 않으면 standalone으로 동작함)
+    - 에이전트에서도 `Server`(, 구분자)/`ServerActive`(; 구분자)에 리스트로 작성해야 함
+    - 5초마다 모든 노드에 마지막 액세스 타임을 업데이트하여 active 노드의 상태가 stopped로 변경되면 5초 이내 standby를 active로 변경함
+    - active에 상태를 업데이트할 수 없는 경우는 standby를 5초  + 페일오버 딜레이동안 기다림
+  - 프로세스 타입
+    - alert manager
+    - alert syncer
+    - alerter
+    - availability manager
+    - configuration syncer
+    - discoverer
+    - escalator
+    - history poller
+    - history syncer
+    - housekeeper
+    - http poller
+    - icmp pinger
+    - impi manager
+    - impi poller
+    - java poller
+    - lld manager
+    - lld worker
+    - odbc poller
+    - poller
+    - preprocessing manager
+    - preprocessing worker
+    - problem housekeeper
+    - proxy poller
+    - report manager
+    - report writer
+    - self-monitoring
+    - snmp trapper
+    - task manager
+    - timer
+    - trapper
+    - unreachable poller
+    - vmware collector
+- agent
+  - 프로세스 타입
+    - active checks
+    - collector
+    - listener
+- agent2
+- proxy
+  - 각각의 데이터베이스를 필요로 한다
+- java g/w
+- sender
+- get
+- js
+- web service
