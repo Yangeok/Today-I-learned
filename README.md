@@ -4,7 +4,7 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_169 TILs and counting..._
+_170 TILs and counting..._
 
 ---
 
@@ -290,6 +290,7 @@ _169 TILs and counting..._
 
 ### [Site-Performance](#Site-Performance)
 - [지표](Site-Performance/metrics.md)
+- [서버 성능 지표](Site-Performance/server.md)
 
 ### [Tableau](#Tableau)
 - [전용 인증서 등록](Tableau/cert.md)
