@@ -1,29 +1,92 @@
-# Oracle Tablespace와 테이블 파티셔닝 방법
+# Oracle Tablespace
 
-- tablespace: 프로시져, 테이블, 뷰 등을 논리적으로 나눈 공간
-- datafile: 데이터를 물리적으로 나눈 공간
+- 정의
+  - datafile라는 이름의 물리 파일로 데이터를 저장함
+  - datafile 하나 이상이 모여 tablespace라는 논리적 저장공간을 형성함
+  - 하나의 데이터베이스 안에 가장 큰 논리적 저장공간
+  - 업무의 단위에 따라 여러 개로 분리할 수 있음
+  - segment라는 논리적 저장공간의 집합
+  - 용량이 가득차면 오라클 서비스가 중단됨
+  - 따로 설정하지 않은 경우 테이블 생성시 자동으로 tablespace를 연결함
+- 종류
+  - permanent
+    - 가장 일반적인 형태로 쓰임
+    - 고의적으로 삭제하지 않는 한 영구적으로 보존되는 객체를 저장하기 위한 용도
+    - 임의의 이름을 지정하여 데이터를 저장할 수 있음
+    - `SYSTEM`, `SYSAUX`가 기본으로 할당되어 있음
+      - `SYSTEM`: Data Dictionary Table이 저장되는 공간
+      - `SYSAUX`: `SYSTEM`의 보조 역할로 `SYSTEM`의 유틸리티/함수를 저장한 공간
+  - undo
+    - 읽기에 일관성을 유지하기 위해 사용함
+    - DML이 실패한 경우 롤백하기 위해 수정 이전의 값을 이 곳에 저장함
+    - 데이터베이스 운영을 위해 적어도 하나의 Undo가 필요함
+  - temporary
+    - 사용자 쿼리 요청으로 정렬작업이 필요할 떄 메모리 부하를 줄이기 위해 사용
+- 구문
+  - 조회
 
-## 파티셔닝 방법
+    ```sql
+    SELECT TABLESPACE_NAME, CONTENTS FROM DBA_TABLESPACES
+    ```
 
-- Range
-  - 특정 기준을 가지고 범위를 나누는 방법 (e.g. 날짜)
-  - 데이터가 균일하게 분포되지 못해 성능 저하를 초래할 수 있음
-- Hash
-  - hash 함수가 데이터를 파티션 별로 균등하게 배분 (like 로드밸런서)
-  - 사용자는 특정 데이터가 어떤 파티션에 저장되는지 알 수 없음
-  - 성능은 좋지만 관리하기 어려운 단점이 있음
-  - 파티션이 지정되지 않은 값을 입력하면 에러가 발생함
-- List
-  - 파티셔닝할 항목을 운영자가 직접 지정하는 방식
-  - `DEFAULT` 파티션을 생성해야 함
-  - 새로운 list 파티션을 추가해야 하는 경우, 기존 `DEFAULT` 파티션을 삭제 후 새로운 파티션을 생성해야 함
-- Composite
-  - Range-Hash: 선 Range 후 Hash
-  - Range-List: 각 레코드가 어느 파티션에 속할지 알 수 있지만, 구문이 장황해짐
-  - Range-Range, List-Range, List-List, List-Hash
-- Interval
-  - 파티션 범위를 넘어간 데이터는 에러로 입력되지 않음 (~10g)
-  - 스스로 파티션을 생성함 (11g)
-  - `numToYMinterval(int, separator[DAY, HOUR, MINUTE, SECOND])`로 파티션을 생성함
-- System
-  - 파티션 키를 파티션 생성시 지정하지 않고, 데이터 삽입할 때 직접 지정하는 방식
+  - 생성
+
+    ```sql
+    CREATE TABLESPACE <tablespace_name>
+    DATAFILE <file_path>
+    SIZE <init_file_size>
+    AUTOEXTEND ON NEXT <extend_size> -- 초기 크기 공간을 모두 사용하는 경우 자동으로 파일 크기를 증량
+    MAXSIZE <max_size> -- 기본값 무제한
+    UNIFORM SIZE <size> -- extent 한개의 크기
+    ```
+
+  - 수정
+    - 연결된 테이블 변경
+
+      ```sql
+      ALTER TABLE <talbe_name> MOVE TABLESPACE <tablespace_name>
+      ```
+
+    - 속성 변경
+      - 물리적 파일의 위치/이름 변경
+
+        ```sql
+        ALTER TABLESPACE RENAME <a> to <b>
+        ```
+
+      - 용량 변경
+
+        ```sql
+        ALTER TABLESPACE <tablespace_name> ADD DATAFILE <file_name> SIZE <size>
+        ```
+
+      - 기존 파일에 용량이 꽉차는 경우 자동 용량 증가
+
+        ```sql
+        ALTER DATABASE DATAFILE <file_path> AUTOEXTEND ON NEXT <size> MAXSIZE <size>
+        ```
+
+  - 삭제
+    - 테이블, 인덱스 등 객체를 모두 삭제
+
+    ```sql
+    DROP TABLESPACE <tablespace_name> INCLUDE CONTENTS
+    ```
+
+    - 데이터가 있는 tablespace를 제외한 모든 segment 삭제
+
+    ```sql
+    DROP TABLESPACE <tablespace_name> INCLUDING CONTENTS
+    ```
+
+    - 다른 tablespace에 연결된 제약조건을 포함 삭제
+
+    ```sql
+    DROP TABLESPACE <tablespace_name> CASCADE CONSTRAINTS
+    ```
+
+    - tablespace의 물리파일 포함 삭제
+
+    ```sql
+    DROP TABLESPACE <tablespace_name> INCLUDING CONTENTS AND DATAFIELS
+    ```
