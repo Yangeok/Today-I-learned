@@ -4,22 +4,22 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_171 TILs and counting..._
+_172 TILs and counting..._
 
 ---
 
 ### 10 most recent TILs
 
+- [bind, call, apply](Javascript/call-bind-apply.md) - Tue Aug 16 10:21:23 2022 +0900
 - [Oracle database link](Database/oracle-db-link.md) - Thu Aug 11 18:13:12 2022 +0900
 - [utf8-bom](Character/utf8-bom.md) - Sun Jul 24 15:58:00 2022 +0900
-- [제네릭 관련 예약어](Typescript/generic-operator.md) - Sun Jul 24 15:58:00 2022 +0900
 - [백본 스위치](Network/backbone-switch.md) - Sun Jul 24 15:58:00 2022 +0900
 - [yarn berry 모노레포 부트스트랩](Nodejs/yarn-berry-monorepo-boot.md) - Sun Jul 24 15:58:00 2022 +0900
 - [is-a vs. has-a](OOP/is-a-vs-has-a.md) - Sun Jul 24 15:58:00 2022 +0900
 - [오프라인 환경에서 사용](Docker/offline-usage.md) - Sun Jul 24 15:58:00 2022 +0900
 - [오프라인 환경에서 패키지 설치](Nodejs/offline-package-install.md) - Sun Jul 24 15:58:00 2022 +0900
+- [제네릭 관련 예약어](Typescript/generic-operator.md) - Sun Jul 24 15:58:00 2022 +0900
 - [dotenv 변수 연결해서 사용하는 방법](React/connect-dotenv.md) - Sun Jul 24 15:58:00 2022 +0900
-- [iv란](Encryption/iv.md) - Sun Jul 24 15:58:00 2022 +0900
 
 ### Categories
 
@@ -151,6 +151,7 @@ _171 TILs and counting..._
 
 ### [Javascript](#Javascript)
 - [blob 파일 다운로드 구현](Javascript/blob-download.md)
+- [bind, call, apply](Javascript/call-bind-apply.md)
 - [클래스 오버라이딩](Javascript/class-overriding.md)
 - [deep copy vs. shallow copy](Javascript/copy.md)
 - [함수 스케쥴링 돌리기](Javascript/cron.md)
