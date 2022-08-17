@@ -4,21 +4,21 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_173 TILs and counting..._
+_174 TILs and counting..._
 
 ---
 
 ### 10 most recent TILs
 
+- [Kafka vs. Redis Pub/sub vs. RabbitMQ](Messaging-System/kafka-redis-rabbitmq.md) - Wed Aug 17 10:09:01 2022 +0900
 - [Oracle Tablespace와 테이블 파티셔닝 방법](Database/oracle-partitioning.md) - Tue Aug 16 12:10:54 2022 +0900
 - [bind, call, apply](Javascript/call-bind-apply.md) - Tue Aug 16 10:21:23 2022 +0900
 - [Oracle database link](Database/oracle-db-link.md) - Thu Aug 11 18:13:12 2022 +0900
-- [yarn berry 모노레포 부트스트랩](Nodejs/yarn-berry-monorepo-boot.md) - Sun Jul 24 15:58:00 2022 +0900
-- [오프라인 환경에서 패키지 설치](Nodejs/offline-package-install.md) - Sun Jul 24 15:58:00 2022 +0900
-- [utf8-bom](Character/utf8-bom.md) - Sun Jul 24 15:58:00 2022 +0900
 - [iv란](Encryption/iv.md) - Sun Jul 24 15:58:00 2022 +0900
-- [백본 스위치](Network/backbone-switch.md) - Sun Jul 24 15:58:00 2022 +0900
+- [is-a vs. has-a](OOP/is-a-vs-has-a.md) - Sun Jul 24 15:58:00 2022 +0900
+- [yarn berry 모노레포 부트스트랩](Nodejs/yarn-berry-monorepo-boot.md) - Sun Jul 24 15:58:00 2022 +0900
 - [dotenv 변수 연결해서 사용하는 방법](React/connect-dotenv.md) - Sun Jul 24 15:58:00 2022 +0900
+- [백본 스위치](Network/backbone-switch.md) - Sun Jul 24 15:58:00 2022 +0900
 - [오프라인 환경에서 사용](Docker/offline-usage.md) - Sun Jul 24 15:58:00 2022 +0900
 
 ### Categories
@@ -45,6 +45,7 @@ _173 TILs and counting..._
 - [Lerna](#Lerna)
 - [Linux](#Linux)
 - [MacOS](#MacOS)
+- [Messaging-System](#Messaging-System)
 - [Mobile](#Mobile)
 - [Network](#Network)
 - [NiFi](#NiFi)
@@ -210,6 +211,9 @@ _173 TILs and counting..._
 ### [MacOS](#MacOS)
 - [맥OS에서 부팅 디스크 굽기](MacOS/booting-disc.md)
 - [hosts 파일 수정](MacOS/hosts.md)
+
+### [Messaging-System](#Messaging-System)
+- [Kafka vs. Redis Pub/sub vs. RabbitMQ](Messaging-System/kafka-redis-rabbitmq.md)
 
 ### [Mobile](#Mobile)
 - [용어 정리](Mobile/terms.md)
