@@ -4,22 +4,22 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_174 TILs and counting..._
+_176 TILs and counting..._
 
 ---
 
 ### 10 most recent TILs
 
+- [Transaction](Database/transaction.md) - Wed Aug 17 11:55:57 2022 +0900
+- [Lock](Database/lock.md) - Wed Aug 17 11:55:57 2022 +0900
 - [Kafka vs. Redis Pub/sub vs. RabbitMQ](Messaging-System/kafka-redis-rabbitmq.md) - Wed Aug 17 10:09:01 2022 +0900
 - [Oracle Tablespace와 테이블 파티셔닝 방법](Database/oracle-partitioning.md) - Tue Aug 16 12:10:54 2022 +0900
 - [bind, call, apply](Javascript/call-bind-apply.md) - Tue Aug 16 10:21:23 2022 +0900
 - [Oracle database link](Database/oracle-db-link.md) - Thu Aug 11 18:13:12 2022 +0900
-- [iv란](Encryption/iv.md) - Sun Jul 24 15:58:00 2022 +0900
-- [is-a vs. has-a](OOP/is-a-vs-has-a.md) - Sun Jul 24 15:58:00 2022 +0900
-- [yarn berry 모노레포 부트스트랩](Nodejs/yarn-berry-monorepo-boot.md) - Sun Jul 24 15:58:00 2022 +0900
+- [제네릭 관련 예약어](Typescript/generic-operator.md) - Sun Jul 24 15:58:00 2022 +0900
 - [dotenv 변수 연결해서 사용하는 방법](React/connect-dotenv.md) - Sun Jul 24 15:58:00 2022 +0900
-- [백본 스위치](Network/backbone-switch.md) - Sun Jul 24 15:58:00 2022 +0900
-- [오프라인 환경에서 사용](Docker/offline-usage.md) - Sun Jul 24 15:58:00 2022 +0900
+- [오프라인 환경에서 패키지 설치](Nodejs/offline-package-install.md) - Sun Jul 24 15:58:00 2022 +0900
+- [iv란](Encryption/iv.md) - Sun Jul 24 15:58:00 2022 +0900
 
 ### Categories
 
@@ -100,6 +100,7 @@ _174 TILs and counting..._
 
 ### [Database](#Database)
 - [CentOS에서 MySQL 설치](Database/installing-mysql.md)
+- [Lock](Database/lock.md)
 - [MySQL 클러스터링과 레플리카 비교](Database/mysql-cluster-vs-replica.md)
 - [MySQL 덤프](Database/mysql-dump.md)
 - [MySQL unsigned 특성이란](Database/mysql-unsigned.md)
@@ -111,6 +112,7 @@ _174 TILs and counting..._
 - [PostgreSQL 명령어](Database/pgsql-command.md)
 - [pgadmin DB 접근권한 획득 및 포트 개방](Database/pgsql-permission.md)
 - [Redis 데몬 실행](Database/redis-daemonize.md)
+- [Transaction](Database/transaction.md)
 
 ### [Deep-Learning](#Deep-Learning)
 - [딥러닝 알고리즘](Deep-Learning/algorithms.md)
