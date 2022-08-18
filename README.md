@@ -4,25 +4,26 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_176 TILs and counting..._
+_182 TILs and counting..._
 
 ---
 
 ### 10 most recent TILs
 
-- [Transaction](Database/transaction.md) - Wed Aug 17 11:55:57 2022 +0900
+- [DRP(Disaster Recovery Plan)](Strategic-Management/drp.md) - Thu Aug 18 18:35:02 2022 +0900
+- [MTTF, MTBF, MTTR](Strategic-Management/mttf-mtbf-mttr.md) - Thu Aug 18 18:35:02 2022 +0900
+- [RTO, RPO, RCO, RSO](Strategic-Management/rto-rpo-rco-rso.md) - Thu Aug 18 18:35:02 2022 +0900
+- [SRE(Site Reliability Engineering)](Strategic-Management/sre.md) - Thu Aug 18 18:35:02 2022 +0900
+- [시스템 마이그레이션](Strategic-Management/system-migration.md) - Thu Aug 18 18:35:02 2022 +0900
+- [BPR vs. PI](Strategic-Management/bpr-pi.md) - Thu Aug 18 18:35:02 2022 +0900
 - [Lock](Database/lock.md) - Wed Aug 17 11:55:57 2022 +0900
+- [Transaction](Database/transaction.md) - Wed Aug 17 11:55:57 2022 +0900
 - [Kafka vs. Redis Pub/sub vs. RabbitMQ](Messaging-System/kafka-redis-rabbitmq.md) - Wed Aug 17 10:09:01 2022 +0900
 - [Oracle Tablespace와 테이블 파티셔닝 방법](Database/oracle-partitioning.md) - Tue Aug 16 12:10:54 2022 +0900
-- [bind, call, apply](Javascript/call-bind-apply.md) - Tue Aug 16 10:21:23 2022 +0900
-- [Oracle database link](Database/oracle-db-link.md) - Thu Aug 11 18:13:12 2022 +0900
-- [제네릭 관련 예약어](Typescript/generic-operator.md) - Sun Jul 24 15:58:00 2022 +0900
-- [dotenv 변수 연결해서 사용하는 방법](React/connect-dotenv.md) - Sun Jul 24 15:58:00 2022 +0900
-- [오프라인 환경에서 패키지 설치](Nodejs/offline-package-install.md) - Sun Jul 24 15:58:00 2022 +0900
-- [iv란](Encryption/iv.md) - Sun Jul 24 15:58:00 2022 +0900
 
 ### Categories
 
+- [Strategic-Management](#Strategic-Management)
 - [.github](#.github)
 - [APM](#APM)
 - [Backend](#Backend)
@@ -64,6 +65,14 @@ _176 TILs and counting..._
 - [Tableau](#Tableau)
 - [Typescript](#Typescript)
 - [Web-Server](#Web-Server)
+
+### [Strategic-Management](#Strategic-Management)
+- [BPR vs. PI](Strategic-Management/bpr-pi.md)
+- [DRP(Disaster Recovery Plan)](Strategic-Management/drp.md)
+- [MTTF, MTBF, MTTR](Strategic-Management/mttf-mtbf-mttr.md)
+- [RTO, RPO, RCO, RSO](Strategic-Management/rto-rpo-rco-rso.md)
+- [SRE(Site Reliability Engineering)](Strategic-Management/sre.md)
+- [시스템 마이그레이션](Strategic-Management/system-migration.md)
 
 ### [.github](#.github)
 - [# Pull request checklist](.github/PULL_REQUEST_TEMPLATE.md)
