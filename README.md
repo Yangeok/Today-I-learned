@@ -4,12 +4,13 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_182 TILs and counting..._
+_183 TILs and counting..._
 
 ---
 
 ### 10 most recent TILs
 
+- [Oracle Backup/Restore](Database/oracle-backup-restore.md) - Tue Aug 23 22:16:34 2022 +0900
 - [DRP(Disaster Recovery Plan)](Strategic-Management/drp.md) - Thu Aug 18 18:35:02 2022 +0900
 - [MTTF, MTBF, MTTR](Strategic-Management/mttf-mtbf-mttr.md) - Thu Aug 18 18:35:02 2022 +0900
 - [RTO, RPO, RCO, RSO](Strategic-Management/rto-rpo-rco-rso.md) - Thu Aug 18 18:35:02 2022 +0900
@@ -19,7 +20,6 @@ _182 TILs and counting..._
 - [Lock](Database/lock.md) - Wed Aug 17 11:55:57 2022 +0900
 - [Transaction](Database/transaction.md) - Wed Aug 17 11:55:57 2022 +0900
 - [Kafka vs. Redis Pub/sub vs. RabbitMQ](Messaging-System/kafka-redis-rabbitmq.md) - Wed Aug 17 10:09:01 2022 +0900
-- [Oracle Tablespace와 테이블 파티셔닝 방법](Database/oracle-partitioning.md) - Tue Aug 16 12:10:54 2022 +0900
 
 ### Categories
 
@@ -114,6 +114,7 @@ _182 TILs and counting..._
 - [MySQL 덤프](Database/mysql-dump.md)
 - [MySQL unsigned 특성이란](Database/mysql-unsigned.md)
 - [Oracle Tablespace와 테이블 파티셔닝 방법](Database/oracle-partitioning.md)
+- [Oracle Backup/Restore](Database/oracle-backup-restore.md)
 - [Oracle database link](Database/oracle-db-link.md)
 - [Oracle Tablespace](Database/oracle-tablespace.md)
 - [오라클 용어](Database/oracle-terms.md)
