@@ -4,21 +4,21 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_190 TILs and counting..._
+_191 TILs and counting..._
 
 ---
 
 ### 10 most recent TILs
 
+- [tee](Linux/tee.md) - Fri Sep 30 12:18:32 2022 +0900
 - [Oracle Large Text](SQL/oracle-large-text.md) - Thu Aug 25 12:11:57 2022 +0900
 - [Oracle Backup/Restore](Database/oracle-backup-restore.md) - Tue Aug 23 22:16:34 2022 +0900
-- [시스템 마이그레이션](Strategic-Management/system-migration.md) - Thu Aug 18 18:35:02 2022 +0900
 - [DRP(Disaster Recovery Plan)](Strategic-Management/drp.md) - Thu Aug 18 18:35:02 2022 +0900
 - [MTTF, MTBF, MTTR](Strategic-Management/mttf-mtbf-mttr.md) - Thu Aug 18 18:35:02 2022 +0900
 - [BPR vs. PI](Strategic-Management/bpr-pi.md) - Thu Aug 18 18:35:02 2022 +0900
 - [RTO, RPO, RCO, RSO](Strategic-Management/rto-rpo-rco-rso.md) - Thu Aug 18 18:35:02 2022 +0900
 - [SRE(Site Reliability Engineering)](Strategic-Management/sre.md) - Thu Aug 18 18:35:02 2022 +0900
-- [Lock](Database/lock.md) - Wed Aug 17 11:55:57 2022 +0900
+- [시스템 마이그레이션](Strategic-Management/system-migration.md) - Thu Aug 18 18:35:02 2022 +0900
 - [Transaction](Database/transaction.md) - Wed Aug 17 11:55:57 2022 +0900
 
 ### Categories
@@ -216,6 +216,7 @@ _190 TILs and counting..._
 - [SSH 포트 포워딩](Linux/ssh-port-forwarding.md)
 - [wheel 그룹에서 su 명령어 사용하기](Linux/su-wheel-group.md)
 - [시스템 정보 확인](Linux/system-info.md)
+- [tee](Linux/tee.md)
 - [traceroute 사용법](Linux/traceroute.md)
 - [trap 사용법](Linux/trap.md)
 - [Ubuntu 보안설정](Linux/ubuntu-security.md)
