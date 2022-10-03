@@ -13,17 +13,16 @@ _191 TILs and counting..._
 - [tee](Linux/tee.md) - Fri Sep 30 12:18:32 2022 +0900
 - [Oracle Large Text](SQL/oracle-large-text.md) - Thu Aug 25 12:11:57 2022 +0900
 - [Oracle Backup/Restore](Database/oracle-backup-restore.md) - Tue Aug 23 22:16:34 2022 +0900
-- [DRP(Disaster Recovery Plan)](Strategic-Management/drp.md) - Thu Aug 18 18:35:02 2022 +0900
-- [MTTF, MTBF, MTTR](Strategic-Management/mttf-mtbf-mttr.md) - Thu Aug 18 18:35:02 2022 +0900
-- [BPR vs. PI](Strategic-Management/bpr-pi.md) - Thu Aug 18 18:35:02 2022 +0900
-- [RTO, RPO, RCO, RSO](Strategic-Management/rto-rpo-rco-rso.md) - Thu Aug 18 18:35:02 2022 +0900
-- [SRE(Site Reliability Engineering)](Strategic-Management/sre.md) - Thu Aug 18 18:35:02 2022 +0900
-- [시스템 마이그레이션](Strategic-Management/system-migration.md) - Thu Aug 18 18:35:02 2022 +0900
+- [Lock](Database/lock.md) - Wed Aug 17 11:55:57 2022 +0900
 - [Transaction](Database/transaction.md) - Wed Aug 17 11:55:57 2022 +0900
+- [Kafka vs. Redis Pub/sub vs. RabbitMQ](Messaging-System/kafka-redis-rabbitmq.md) - Wed Aug 17 10:09:01 2022 +0900
+- [Oracle Tablespace와 테이블 파티셔닝 방법](Database/oracle-partitioning.md) - Tue Aug 16 12:10:54 2022 +0900
+- [bind, call, apply](Javascript/call-bind-apply.md) - Tue Aug 16 10:21:23 2022 +0900
+- [Oracle database link](Database/oracle-db-link.md) - Thu Aug 11 18:13:12 2022 +0900
+- [iv란](Encryption/iv.md) - Sun Jul 24 15:58:00 2022 +0900
 
 ### Categories
 
-- [Strategic-Management](#Strategic-Management)
 - [.github](#.github)
 - [APM](#APM)
 - [Backend](#Backend)
@@ -62,20 +61,10 @@ _191 TILs and counting..._
 - [SQL](#SQL)
 - [Security](#Security)
 - [Site-Performance](#Site-Performance)
+- [Strategic-Management](#Strategic-Management)
 - [Tableau](#Tableau)
 - [Typescript](#Typescript)
 - [Web-Server](#Web-Server)
-
-### [Strategic-Management](#Strategic-Management)
-- [BPR vs. PI](Strategic-Management/bpr-pi.md)
-- [DRP(Disaster Recovery Plan)](Strategic-Management/drp.md)
-- [MTTF, MTBF, MTTR](Strategic-Management/mttf-mtbf-mttr.md)
-- [PMBoK](Strategic-Management/pmbok.md)
-- [PRINCE2](Strategic-Management/prince2.md)
-- [우선순위 선정 방법](Strategic-Management/priority.md)
-- [RTO, RPO, RCO, RSO](Strategic-Management/rto-rpo-rco-rso.md)
-- [SRE(Site Reliability Engineering)](Strategic-Management/sre.md)
-- [시스템 마이그레이션](Strategic-Management/system-migration.md)
 
 ### [.github](#.github)
 - [# Pull request checklist](.github/PULL_REQUEST_TEMPLATE.md)
@@ -318,6 +307,17 @@ _191 TILs and counting..._
 ### [Site-Performance](#Site-Performance)
 - [지표](Site-Performance/metrics.md)
 - [서버 성능 지표](Site-Performance/server.md)
+
+### [Strategic-Management](#Strategic-Management)
+- [BPR vs. PI](Strategic-Management/bpr-pi.md)
+- [DRP(Disaster Recovery Plan)](Strategic-Management/drp.md)
+- [MTTF, MTBF, MTTR](Strategic-Management/mttf-mtbf-mttr.md)
+- [PMBoK](Strategic-Management/pmbok.md)
+- [PRINCE2](Strategic-Management/prince2.md)
+- [우선순위 선정 방법](Strategic-Management/priority.md)
+- [RTO, RPO, RCO, RSO](Strategic-Management/rto-rpo-rco-rso.md)
+- [SRE(Site Reliability Engineering)](Strategic-Management/sre.md)
+- [시스템 마이그레이션](Strategic-Management/system-migration.md)
 
 ### [Tableau](#Tableau)
 - [전용 인증서 등록](Tableau/cert.md)
