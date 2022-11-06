@@ -4,7 +4,7 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_191 TILs and counting..._
+_192 TILs and counting..._
 
 ---
 
@@ -19,7 +19,7 @@ _191 TILs and counting..._
 - [Oracle Tablespace와 테이블 파티셔닝 방법](Database/oracle-partitioning.md) - Tue Aug 16 12:10:54 2022 +0900
 - [bind, call, apply](Javascript/call-bind-apply.md) - Tue Aug 16 10:21:23 2022 +0900
 - [Oracle database link](Database/oracle-db-link.md) - Thu Aug 11 18:13:12 2022 +0900
-- [iv란](Encryption/iv.md) - Sun Jul 24 15:58:00 2022 +0900
+- [utf8-bom](Character/utf8-bom.md) - Sun Jul 24 15:58:00 2022 +0900
 
 ### Categories
 
@@ -116,6 +116,7 @@ _191 TILs and counting..._
 - [PostgreSQL 명령어](Database/pgsql-command.md)
 - [pgadmin DB 접근권한 획득 및 포트 개방](Database/pgsql-permission.md)
 - [Redis 데몬 실행](Database/redis-daemonize.md)
+- [sharding vs. partitioning](Database/sharding-partitioning.md)
 - [Transaction](Database/transaction.md)
 
 ### [Deep-Learning](#Deep-Learning)
