@@ -4,12 +4,13 @@
 오늘 학습한 내용을 정리하는 공간입니다. 날짜 기준으로 정리한 레거시 TIL은 더 이상 운영하지 않고, 이 저장소로 이관중입니다. 이 곳에서 작성한 글들을 바탕으로 [블로그][1] 포스팅을 작성하고 있습니다.
 
 
-_192 TILs and counting..._
+_193 TILs and counting..._
 
 ---
 
 ### 10 most recent TILs
 
+- [SSL](Encryption/ssl.md) - Mon Jan 16 14:45:35 2023 +0900
 - [tee](Linux/tee.md) - Fri Sep 30 12:18:32 2022 +0900
 - [Oracle Large Text](SQL/oracle-large-text.md) - Thu Aug 25 12:11:57 2022 +0900
 - [Oracle Backup/Restore](Database/oracle-backup-restore.md) - Tue Aug 23 22:16:34 2022 +0900
@@ -19,7 +20,6 @@ _192 TILs and counting..._
 - [Oracle Tablespace와 테이블 파티셔닝 방법](Database/oracle-partitioning.md) - Tue Aug 16 12:10:54 2022 +0900
 - [bind, call, apply](Javascript/call-bind-apply.md) - Tue Aug 16 10:21:23 2022 +0900
 - [Oracle database link](Database/oracle-db-link.md) - Thu Aug 11 18:13:12 2022 +0900
-- [utf8-bom](Character/utf8-bom.md) - Sun Jul 24 15:58:00 2022 +0900
 
 ### Categories
 
@@ -135,6 +135,7 @@ _192 TILs and counting..._
 ### [Encryption](#Encryption)
 - [iv란](Encryption/iv.md)
 - [ssh vs. telnet](Encryption/protocol.md)
+- [SSL](Encryption/ssl.md)
 
 ### [Flutter](#Flutter)
 - [상태관리 도구 GetX](Flutter/state-management-getx.md)
